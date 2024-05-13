@@ -1,0 +1,583 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.4.553">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+<meta name="author" content="Tristan O’Malley">
+<meta name="dcterms.date" content="2024-05-10">
+
+<title>CRT in AI Newsletter - Welcome To My Blog</title>
+<style>
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+</style>
+
+
+<script src="../../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../../">
+<script src="../../site_libs/quarto-html/quarto.js"></script>
+<script src="../../site_libs/quarto-html/popper.min.js"></script>
+<script src="../../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../../site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../../site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
+<script id="quarto-search-options" type="application/json">{
+  "location": "navbar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "end",
+  "type": "overlay",
+  "limit": 50,
+  "keyboard-shortcut": [
+    "f",
+    "/",
+    "s"
+  ],
+  "show-item-context": false,
+  "language": {
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
+    "search-text-placeholder": "",
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit",
+    "search-label": "Search"
+  }
+}</script>
+
+
+<link rel="stylesheet" href="../../styles.css">
+</head>
+
+<body class="nav-fixed fullcontent">
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top quarto-banner">
+    <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
+      <div class="navbar-container container-fluid">
+      <div class="navbar-brand-container mx-auto">
+    <a class="navbar-brand" href="../../index.html">
+    <span class="navbar-title">CRT in AI Newsletter</span>
+    </a>
+  </div>
+            <div id="quarto-search" class="" title="Search"></div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+  <span class="navbar-toggler-icon"></span>
+</button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav navbar-nav-scroll ms-auto">
+  <li class="nav-item">
+    <a class="nav-link" href="../../about.html"> 
+<span class="menu-text">About</span></a>
+  </li>  
+  <li class="nav-item compact">
+    <a class="nav-link" href="https://github.com/"> <i class="bi bi-github" role="img">
+</i> 
+<span class="menu-text"></span></a>
+  </li>  
+  <li class="nav-item compact">
+    <a class="nav-link" href="https://twitter.com"> <i class="bi bi-twitter" role="img">
+</i> 
+<span class="menu-text"></span></a>
+  </li>  
+</ul>
+          </div> <!-- /navcollapse -->
+          <div class="quarto-navbar-tools">
+</div>
+      </div> <!-- /container-fluid -->
+    </nav>
+</header>
+<!-- content -->
+<header id="title-block-header" class="quarto-title-block default page-columns page-full">
+  <div class="quarto-title-banner page-columns page-full">
+    <div class="quarto-title column-body">
+      <h1 class="title">Welcome To My Blog</h1>
+                                <div class="quarto-categories">
+                <div class="quarto-category">news</div>
+              </div>
+                  </div>
+  </div>
+    
+  
+  <div class="quarto-title-meta">
+
+      <div>
+      <div class="quarto-title-meta-heading">Author</div>
+      <div class="quarto-title-meta-contents">
+               <p>Tristan O’Malley </p>
+            </div>
+    </div>
+      
+      <div>
+      <div class="quarto-title-meta-heading">Published</div>
+      <div class="quarto-title-meta-contents">
+        <p class="date">May 10, 2024</p>
+      </div>
+    </div>
+    
+      
+    </div>
+    
+  
+  </header><div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<!-- sidebar -->
+<!-- margin-sidebar -->
+    
+<!-- main -->
+<main class="content quarto-banner-title-block" id="quarto-document-content">
+
+
+
+
+
+<div>
+
+<p>&lt;!DOCTYPE html&gt; <!-- saved from url=(0046)https://crtai.news/TheTuringPoint-Issue-1.html --> &lt;html style=“font-size: 16px;” lang=“en” class=“u-responsive-xl”&gt;&lt;head&gt;&lt;meta http-equiv=“Content-Type” content=“text/html; charset=UTF-8”&gt; &lt;meta name=“viewport” content=“width=device-width, initial-scale=1.0”&gt;</p>
+<p>&lt;meta name=“keywords” content=“About Us”&gt; &lt;meta name=“description” content=““&gt; &lt;title&gt;TheTuringPoint Issue 1&lt;/title&gt; &lt;link rel=”stylesheet” href=“./TheTuringPoint Issue 1_files/nicepage.css” media=“screen”&gt; &lt;link rel=“stylesheet” href=“./TheTuringPoint Issue 1_files/TheTuringPoint-Issue-1.css” media=“screen”&gt; &lt;script class=“u-script” type=“text/javascript” src=“./TheTuringPoint Issue 1_files/jquery.js.download” “=”” defer=““&gt;&lt;/script&gt; &lt;script class=”u-script” type=“text/javascript” src=“./TheTuringPoint Issue 1_files/nicepage.js.download” “=”” defer=““&gt;&lt;/script&gt; &lt;meta name=”generator” content=“Nicepage 4.15.8, nicepage.com”&gt;</p>
+<p>&lt;link rel=“icon” href=“https://crtai.news/images/favicon.png”&gt; &lt;link id=“u-theme-google-font” rel=“stylesheet” href=“./TheTuringPoint Issue 1_files/css”&gt; &lt;link id=“u-page-google-font” rel=“stylesheet” href=“./TheTuringPoint Issue 1_files/css(1)”&gt;</p>
+<p>&lt;script type=“application/ld+json”&gt;{ “@context”: “http://schema.org”, “@type”: “Organization”, “name”: “Turing Point”, “sameAs”: [ “https://twitter.com/crt_ai”, “https://www.youtube.com/channel/UC-nvgMWWDSfU4Y0Q6O4EqGg”, “mailto:janetchoi@ucc.ie?subject=Newsletter” ] }&lt;/script&gt; &lt;meta name=“theme-color” content=“#478ac9”&gt; &lt;meta name=“twitter:site” content=“@”&gt; &lt;meta name=“twitter:card” content=“summary_large_image”&gt; &lt;meta name=“twitter:title” content=“TheTuringPoint Issue 1”&gt; &lt;meta name=“twitter:description” content=“Turing Point”&gt; &lt;meta property=“og:title” content=“TheTuringPoint Issue 1”&gt; &lt;meta property=“og:description” content=““&gt; &lt;meta property=”og:type” content=“website”&gt; &lt;/head&gt; &lt;body class=“u-body u-xl-mode” data-lang=“en”&gt;&lt;header class=“u-align-center u-clearfix u-header u-header” id=“sec-6ca4”&gt;&lt;div class=“u-clearfix u-sheet u-sheet-1”&gt; &lt;div class=“u-align-right u-social-icons u-spacing-10 u-social-icons-1”&gt; &lt;a class=“u-social-url” target=“_blank” data-type=“Twitter” title=“Twitter” href=“https://twitter.com/crt_ai”&gt;&lt;span class=“u-icon u-social-icon u-social-twitter u-text-black u-icon-1”&gt;&lt;svg class=“u-svg-link” preserveAspectRatio=“xMidYMin slice” viewBox=“0 0 112 112” style=““&gt;&lt;use xmlns:xlink=”http://www.w3.org/1999/xlink” xlink:href=“#svg-66a2”&gt;&lt;/use&gt;&lt;/svg&gt;&lt;svg class=“u-svg-content” viewBox=“0 0 112 112” x=“0” y=“0” id=“svg-66a2”&gt;&lt;circle fill=“currentColor” class=“st0” cx=“56.1” cy=“56.1” r=“55”&gt;&lt;/circle&gt;&lt;path fill=“#FFFFFF” d=“M83.8,47.3c0,0.6,0,1.2,0,1.7c0,17.7-13.5,38.2-38.2,38.2C38,87.2,31,85,25,81.2c1,0.1,2.1,0.2,3.2,0.2 c6.3,0,12.1-2.1,16.7-5.7c-5.9-0.1-10.8-4-12.5-9.3c0.8,0.2,1.7,0.2,2.5,0.2c1.2,0,2.4-0.2,3.5-0.5c-6.1-1.2-10.8-6.7-10.8-13.1 c0-0.1,0-0.1,0-0.2c1.8,1,3.9,1.6,6.1,1.7c-3.6-2.4-6-6.5-6-11.2c0-2.5,0.7-4.8,1.8-6.7c6.6,8.1,16.5,13.5,27.6,14 c-0.2-1-0.3-2-0.3-3.1c0-7.4,6-13.4,13.4-13.4c3.9,0,7.3,1.6,9.8,4.2c3.1-0.6,5.9-1.7,8.5-3.3c-1,3.1-3.1,5.8-5.9,7.4 c2.7-0.3,5.3-1,7.7-2.1C88.7,43,86.4,45.4,83.8,47.3z”&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/span&gt; &lt;/a&gt; &lt;a class=“u-social-url” target=“_blank” data-type=“YouTube” title=“YouTube” href=“https://www.youtube.com/channel/UC-nvgMWWDSfU4Y0Q6O4EqGg”&gt;&lt;span class=“u-icon u-social-icon u-social-youtube u-text-black u-icon-2”&gt;&lt;svg class=“u-svg-link” preserveAspectRatio=“xMidYMin slice” viewBox=“0 0 112 112” style=““&gt;&lt;use xmlns:xlink=”http://www.w3.org/1999/xlink” xlink:href=“#svg-5ed7”&gt;&lt;/use&gt;&lt;/svg&gt;&lt;svg class=“u-svg-content” viewBox=“0 0 112 112” x=“0” y=“0” id=“svg-5ed7”&gt;&lt;circle fill=“currentColor” cx=“56.1” cy=“56.1” r=“55”&gt;&lt;/circle&gt;&lt;path fill=“#FFFFFF” d=“M74.9,33.3H37.3c-7.4,0-13.4,6-13.4,13.4v18.8c0,7.4,6,13.4,13.4,13.4h37.6c7.4,0,13.4-6,13.4-13.4V46.7 C88.3,39.3,82.3,33.3,74.9,33.3L74.9,33.3z M65.9,57l-17.6,8.4c-0.5,0.2-1-0.1-1-0.6V47.5c0-0.5,0.6-0.9,1-0.6l17.6,8.9 C66.4,56,66.4,56.8,65.9,57L65.9,57z”&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/span&gt; &lt;/a&gt; &lt;a class=“u-social-url” target=“_blank” data-type=“Email” title=“Email” href=“mailto:janetchoi@ucc.ie?subject=Newsletter”&gt;&lt;span class=“u-icon u-social-email u-social-icon u-text-black u-icon-3”&gt;&lt;svg class=“u-svg-link” preserveAspectRatio=“xMidYMin slice” viewBox=“0 0 112 112” style=““&gt;&lt;use xmlns:xlink=”http://www.w3.org/1999/xlink” xlink:href=“#svg-9437”&gt;&lt;/use&gt;&lt;/svg&gt;&lt;svg class=“u-svg-content” viewBox=“0 0 112 112” x=“0” y=“0” id=“svg-9437”&gt;&lt;circle fill=“currentColor” cx=“56.1” cy=“56.1” r=“55”&gt;&lt;/circle&gt;&lt;path id=“path3864” fill=“#FFFFFF” d=“M27.2,28h57.6c4,0,7.2,3.2,7.2,7.2l0,0v42.7c0,3.9-3.2,7.2-7.2,7.2l0,0H27.2 c-4,0-7.2-3.2-7.2-7.2V35.2C20,31.1,23.2,28,27.2,28 M56,52.9l28.8-17.8H27.2L56,52.9 M27.2,77.7h57.6V43.5L56,61.3L27.2,43.5V77.7z”&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/span&gt; &lt;/a&gt; &lt;/div&gt; &lt;h3 class=“u-align-center-xs u-align-left-lg u-align-left-md u-align-left-sm u-align-left-xl u-headline u-text u-text-1”&gt; &lt;a href=“https://crtai.news/”&gt;Issue #2 | August 2022&nbsp;&lt;/a&gt; &lt;/h3&gt; &lt;div class=“u-border-2 u-border-grey-dark-1 u-expanded-width u-line u-line-horizontal u-line-1”&gt;&lt;/div&gt; &lt;h1 class=“u-align-center-lg u-align-center-md u-align-center-sm u-align-center-xs u-text u-text-default u-text-2”&gt;THE TURING P&lt;span class=“u-text-palette-2-base”&gt;01&lt;/span&gt;NT &lt;/h1&gt; &lt;p class=“u-align-center-lg u-align-center-md u-align-center-sm u-align-center-xs u-large-text u-text u-text-variant u-text-3”&gt; Curiosity. Creativity. Courage. Community.&nbsp;&lt;/p&gt; &lt;div class=“u-border-3 u-border-grey-dark-1 u-expanded-width u-line u-line-horizontal u-line-2”&gt;&lt;/div&gt; &lt;div class=“u-border-3 u-border-grey-dark-1 u-expanded-width u-line u-line-horizontal u-line-3”&gt;&lt;/div&gt; &lt;nav class=“u-align-center u-hidden-lg u-menu u-menu-dropdown u-offcanvas u-menu-1”&gt; &lt;div class=“menu-collapse” style=“font-size: 1.125rem;”&gt; &lt;a class=“u-button-style u-custom-hover-color u-custom-left-right-menu-spacing u-custom-top-bottom-menu-spacing u-nav-link” href=“https://crtai.news/TheTuringPoint-Issue-1.html#”&gt; &lt;svg class=“u-svg-link” viewBox=“0 0 24 24”&gt;&lt;use xmlns:xlink=“http://www.w3.org/1999/xlink” xlink:href=“#svg-7db4”&gt;&lt;/use&gt;&lt;/svg&gt; &lt;svg class=“u-svg-content” version=“1.1” id=“svg-7db4” viewBox=“0 0 16 16” x=“0px” y=“0px” xmlns:xlink=“http://www.w3.org/1999/xlink” xmlns=“http://www.w3.org/2000/svg”&gt;&lt;g&gt;&lt;rect y=“1” width=“16” height=“2”&gt;&lt;/rect&gt;&lt;rect y=“7” width=“16” height=“2”&gt;&lt;/rect&gt;&lt;rect y=“13” width=“16” height=“2”&gt;&lt;/rect&gt; &lt;/g&gt;&lt;/svg&gt; &lt;/a&gt; &lt;/div&gt; &lt;div class=“u-custom-menu u-nav-container”&gt; &lt;ul class=“u-nav u-spacing-0 u-unstyled u-nav-1”&gt;&lt;li class=“u-nav-item”&gt;&lt;a class=“u-button-style u-hover-palette-2-base u-nav-link” rel=“nofollow” style=“padding: 14px 108px;”&gt;Articles&lt;/a&gt;&lt;div class=“u-nav-popup”&gt;&lt;ul class=“u-h-spacing-60 u-nav u-unstyled u-v-spacing-19”&gt;&lt;li class=“u-nav-item”&gt;&lt;a class=“u-button-style u-hover-palette-2-base u-nav-link u-white” href=“https://crtai.news/TheTuringPoint-Issue-2.html#carousel_ef29” data-page-id=“89635821”&gt;The voice question&lt;/a&gt; &lt;/li&gt;&lt;li class=“u-nav-item”&gt;&lt;a class=“u-button-style u-hover-palette-2-base u-nav-link u-white” href=“https://crtai.news/TheTuringPoint-Issue-2.html#sec-b488” data-page-id=“89635821”&gt;Automated speech recognition&lt;/a&gt; &lt;/li&gt;&lt;/ul&gt; &lt;/div&gt; &lt;/li&gt;&lt;li class=“u-nav-item”&gt;&lt;a class=“u-button-style u-hover-palette-2-base u-nav-link” rel=“nofollow” style=“padding: 14px 108px;”&gt;Community&lt;/a&gt;&lt;div class=“u-nav-popup”&gt;&lt;ul class=“u-h-spacing-60 u-nav u-unstyled u-v-spacing-19”&gt;&lt;li class=“u-nav-item”&gt;&lt;a class=“u-button-style u-hover-palette-2-base u-nav-link u-white” href=“https://crtai.news/TheTuringPoint-Issue-2.html#sec-c90f” data-page-id=“89635821”&gt;Find your science buddy&lt;/a&gt; &lt;/li&gt;&lt;li class=“u-nav-item”&gt;&lt;a class=“u-button-style u-hover-palette-2-base u-nav-link u-white” href=“https://crtai.news/TheTuringPoint-Issue-2.html#sec-5fc9” data-page-id=“89635821”&gt;CRT-AI events&lt;/a&gt; &lt;/li&gt;&lt;/ul&gt; &lt;/div&gt; &lt;/li&gt;&lt;li class=“u-nav-item”&gt;&lt;a class=“u-button-style u-hover-palette-2-base u-nav-link” href=“https://crtai.news/TheTuringPoint-Issue-2.html#sec-9d0b” data-page-id=“89635821” style=“padding: 14px 108px;”&gt;Podcast&lt;/a&gt; &lt;/li&gt;&lt;li class=“u-nav-item”&gt;&lt;a class=“u-button-style u-hover-palette-2-base u-nav-link” rel=“nofollow” style=“padding: 14px 108px;”&gt;Tools&lt;/a&gt;&lt;div class=“u-nav-popup”&gt;&lt;ul class=“u-h-spacing-60 u-nav u-unstyled u-v-spacing-19”&gt;&lt;li class=“u-nav-item”&gt;&lt;a class=“u-button-style u-hover-palette-2-base u-nav-link u-white” href=“https://crtai.news/TheTuringPoint-Issue-2.html#sec-0b12” data-page-id=“89635821”&gt;AI Dictionary&lt;/a&gt; &lt;/li&gt;&lt;li class=“u-nav-item”&gt;&lt;a class=“u-button-style u-hover-palette-2-base u-nav-link u-white” href=“https://crtai.news/TheTuringPoint-Issue-2.html#carousel_4842” data-page-id=“89635821”&gt;Tools and datasets&lt;/a&gt; &lt;/li&gt;&lt;/ul&gt; &lt;/div&gt; &lt;/li&gt;&lt;/ul&gt; &lt;/div&gt; &lt;div class=“u-custom-menu u-nav-container-collapse”&gt; &lt;div class=“u-black u-container-style u-inner-container-layout u-opacity u-opacity-95 u-sidenav”&gt; &lt;div class=“u-inner-container-layout u-sidenav-overflow”&gt; &lt;div class=“u-menu-close”&gt;&lt;/div&gt; &lt;ul class=“u-align-center u-nav u-popupmenu-items u-unstyled u-nav-5”&gt;&lt;li class=“u-nav-item”&gt;&lt;a class=“u-button-style u-nav-link” rel=“nofollow”&gt;Articles&lt;/a&gt;&lt;div class=“u-nav-popup”&gt;&lt;ul class=“u-h-spacing-60 u-nav u-unstyled u-v-spacing-19”&gt;&lt;li class=“u-nav-item”&gt;&lt;a class=“u-button-style u-nav-link” href=“https://crtai.news/TheTuringPoint-Issue-2.html#carousel_ef29” data-page-id=“89635821”&gt;The voice question&lt;/a&gt; &lt;/li&gt;&lt;li class=“u-nav-item”&gt;&lt;a class=“u-button-style u-nav-link” href=“https://crtai.news/TheTuringPoint-Issue-2.html#sec-b488” data-page-id=“89635821”&gt;Automated speech recognition&lt;/a&gt; &lt;/li&gt;&lt;/ul&gt; &lt;/div&gt; &lt;/li&gt;&lt;li class=“u-nav-item”&gt;&lt;a class=“u-button-style u-nav-link” rel=“nofollow”&gt;Community&lt;/a&gt;&lt;div class=“u-nav-popup”&gt;&lt;ul class=“u-h-spacing-60 u-nav u-unstyled u-v-spacing-19”&gt;&lt;li class=“u-nav-item”&gt;&lt;a class=“u-button-style u-nav-link” href=“https://crtai.news/TheTuringPoint-Issue-2.html#sec-c90f” data-page-id=“89635821”&gt;Find your science buddy&lt;/a&gt; &lt;/li&gt;&lt;li class=“u-nav-item”&gt;&lt;a class=“u-button-style u-nav-link” href=“https://crtai.news/TheTuringPoint-Issue-2.html#sec-5fc9” data-page-id=“89635821”&gt;CRT-AI events&lt;/a&gt; &lt;/li&gt;&lt;/ul&gt; &lt;/div&gt; &lt;/li&gt;&lt;li class=“u-nav-item”&gt;&lt;a class=“u-button-style u-nav-link” href=“https://crtai.news/TheTuringPoint-Issue-2.html#sec-9d0b” data-page-id=“89635821”&gt;Podcast&lt;/a&gt; &lt;/li&gt;&lt;li class=“u-nav-item”&gt;&lt;a class=“u-button-style u-nav-link” rel=“nofollow”&gt;Tools&lt;/a&gt;&lt;div class=“u-nav-popup”&gt;&lt;ul class=“u-h-spacing-60 u-nav u-unstyled u-v-spacing-19”&gt;&lt;li class=“u-nav-item”&gt;&lt;a class=“u-button-style u-nav-link” href=“https://crtai.news/TheTuringPoint-Issue-2.html#sec-0b12” data-page-id=“89635821”&gt;AI Dictionary&lt;/a&gt; &lt;/li&gt;&lt;li class=“u-nav-item”&gt;&lt;a class=“u-button-style u-nav-link” href=“https://crtai.news/TheTuringPoint-Issue-2.html#carousel_4842” data-page-id=“89635821”&gt;Tools and datasets&lt;/a&gt; &lt;/li&gt;&lt;/ul&gt; &lt;/div&gt; &lt;/li&gt;&lt;/ul&gt; &lt;/div&gt; &lt;/div&gt; &lt;div class=“u-black u-menu-overlay u-opacity u-opacity-70”&gt;&lt;/div&gt; &lt;/div&gt; &lt;style class=“offcanvas-style”&gt; .u-offcanvas .u-sidenav { flex-basis: 250px !important; } .u-offcanvas:not(.u-menu-open-right) .u-sidenav { margin-left: -250px; } .u-offcanvas.u-menu-open-right .u-sidenav { margin-right: -250px; } @keyframes menu-shift-left { from { left: 0; } to { left: 250px; } } @keyframes menu-unshift-left { from { left: 250px; } to { left: 0; } } @keyframes menu-shift-right { from { right: 0; } to { right: 250px; } } @keyframes menu-unshift-right { from { right: 250px; } to { right: 0; } } &lt;/style&gt;&lt;/nav&gt; &lt;/div&gt;&lt;/header&gt; &lt;section class=“u-clearfix u-section-1” id=“carousel_3c48”&gt; &lt;div class=“u-align-left u-border-no-bottom u-border-no-left u-border-no-right u-border-no-top u-expanded-width u-grey-25 u-opacity u-opacity-45 u-shape u-shape-1”&gt;&lt;/div&gt; &lt;div class=“u-clearfix u-gutter-16 u-layout-wrap u-layout-wrap-1”&gt; &lt;div class=“u-layout”&gt; &lt;div class=“u-layout-row”&gt; &lt;div class=“u-container-style u-grey-5 u-layout-cell u-size-30 u-layout-cell-1”&gt; &lt;div class=“u-container-layout u-container-layout-1”&gt; &lt;div class=“u-align-left u-image u-image-circle u-image-contain u-image-1” alt=“” data-image-width=“1440” data-image-height=“748”&gt;&lt;/div&gt; &lt;p class=“u-align-center u-text u-text-default u-text-grey-75 u-text-1”&gt; &lt;span style=“font-weight: normal;” class=“u-text-grey-60”&gt;&lt;i&gt; Professor O’Sullivan ​Director of &lt;br&gt;The Centre for Research Training in Artificial Intelligence&nbsp;&nbsp;&lt;/i&gt; &lt;/span&gt; &lt;br&gt; &lt;/p&gt; &lt;div class=“u-align-right u-image u-image-circle u-image-2” alt=“” data-image-width=“852” data-image-height=“852”&gt;&lt;/div&gt; &lt;h3 class=“u-align-justify u-text u-text-2”&gt;Director’s Message&nbsp;&lt;/h3&gt; &lt;p class=“u-align-justify u-text u-text-3”&gt; Welcome to the first edition of the CRT-AI Newsletter. It is our pleasure to announce, this is The Turing Point. &lt;br&gt;Our goal is to keep you informed of our latest developments and news and provide you with valuable information during your PhD journey. &lt;br&gt;CRT-AI’s newsletter committee is comprised of students across cohorts one through three. There are six committee members, and the advisory committee is composed of the six Co-Directors of the CRT-AI.&lt;br&gt; &lt;/p&gt; &lt;/div&gt; &lt;/div&gt; &lt;div class=“u-container-style u-grey-5 u-layout-cell u-size-30 u-layout-cell-2”&gt; &lt;div class=“u-container-layout u-container-layout-2”&gt; &lt;p class=“u-align-justify u-text u-text-4”&gt; Whether people realize it or not, AI is now part of their daily lives, not a piece of fiction. A number of industries have become prominent for adopting artificial intelligence, including high tech and telecommunications, financial services, and healthcare.&nbsp;&lt;br&gt;The growth of AI Corporate Investment worldwide, due to Covid-19 Pandemic, has accelerated in areas such as biotech, and the biggest increase has been in healthcare and pharma, and it appears that AI hiring, investment, and adoption have increased globally.&lt;br&gt;The training of PhDs in this area is necessary to better meet the needs of the sector, improve efficiencies, and improve the future lives of millions of people.&nbsp;&lt;br&gt;Last but not least, spring is approaching, and we all will be able to get up and moving again with plenty of fresh air around after a long period of hibernation. As you pursue your PhD, I wish you good health, happiness, and success.&nbsp;&lt;br&gt;Please contact the newsletter committee through the CRT-AI Slack workspace if you would like to donate your time.&nbsp;&lt;br&gt; &lt;/p&gt; &lt;/div&gt; &lt;/div&gt; &lt;/div&gt; &lt;/div&gt; &lt;/div&gt; &lt;/section&gt; &lt;section class=“u-align-center-lg u-align-center-md u-align-center-xl u-align-left-sm u-align-left-xs u-clearfix u-section-2” data-image-width=“2000” data-image-height=“1333” id=“sec-d7ff”&gt; &lt;div class=“u-clearfix u-sheet u-sheet-1”&gt; &lt;h1 class=“u-text u-text-1”&gt; Ace Your PhD Life With Soft Skills&nbsp;&lt;/h1&gt; &lt;h4 class=“u-text u-text-2”&gt; Soft Skills Toolkit&lt;/h4&gt; &lt;div class=“u-clearfix u-expanded-width u-gutter-10 u-layout-wrap u-layout-wrap-1”&gt; &lt;div class=“u-gutter-0 u-layout”&gt; &lt;div class=“u-layout-row”&gt; &lt;div class=“u-size-20 u-size-30-md”&gt; &lt;div class=“u-layout-col”&gt; &lt;div class=“u-align-left u-container-style u-layout-cell u-left-cell u-size-30 u-layout-cell-1”&gt; &lt;div class=“u-container-layout u-valign-top u-container-layout-1”&gt; &lt;h3 class=“u-text u-text-default u-text-3”&gt; Soft Skills: What are they?&nbsp;&lt;/h3&gt; &lt;p class=“u-text u-text-4”&gt; Soft skills are core skills sought after in every profession. Which soft skills are relevant for your career? And which ones should you focus on developing?&lt;/p&gt; &lt;a href=“https://novoresume.com/career-blog/soft-skills” class=“u-align-right u-btn u-button-style u-none u-text-hover-palette-1-base u-text-palette-2-base u-btn-1” target=“_blank”&gt;Read More&nbsp;&lt;span class=“u-icon u-text-palette-2-base u-icon-1”&gt;&lt;svg class=“u-svg-content” viewBox=“0 0 412.72 412.72” x=“0px” y=“0px” style=“width: 1em; height: 1em;”&gt;&lt;path d=“M404.72,82.944c-0.027,0-0.054,0-0.08,0h0h-27.12v-9.28c0.146-3.673-2.23-6.974-5.76-8 c-18.828-4.934-38.216-7.408-57.68-7.36c-32,0-75.6,7.2-107.84,40c-32-33.12-75.92-40-107.84-40 c-19.464-0.048-38.852,2.426-57.68,7.36c-3.53,1.026-5.906,4.327-5.76,8v9.2H8c-4.418,0-8,3.582-8,8v255.52c0,4.418,3.582,8,8,8 c1.374-0.004,2.724-0.362,3.92-1.04c0.8-0.4,80.8-44.16,192.48-16h1.2h0.72c0.638,0.077,1.282,0.077,1.92,0 c112-28.4,192,15.28,192.48,16c2.475,1.429,5.525,1.429,8,0c2.46-1.42,3.983-4.039,4-6.88V90.944 C412.72,86.526,409.139,82.944,404.72,82.944z M16,333.664V98.944h19.12v200.64c-0.05,4.418,3.491,8.04,7.909,8.09 c0.432,0.005,0.864-0.025,1.291-0.09c16.55-2.527,33.259-3.864,50-4c23.19-0.402,46.283,3.086,68.32,10.32 C112.875,307.886,62.397,314.688,16,333.664z M94.32,287.664c-14.551,0.033-29.085,0.968-43.52,2.8V79.984 c15.576-3.47,31.482-5.241,47.44-5.28c29.92,0,71.2,6.88,99.84,39.2l0.24,199.28C181.68,302.304,149.2,287.664,94.32,287.664z M214.32,113.904c28.64-32,69.92-39.2,99.84-39.2c15.957,0.047,31.863,1.817,47.44,5.28v210.48 c-14.354-1.849-28.808-2.811-43.28-2.88c-54.56,0-87.12,14.64-104,25.52V113.904z M396.64,333.664 c-46.496-19.028-97.09-25.831-146.96-19.76c22.141-7.26,45.344-10.749,68.64-10.32c16.846,0.094,33.663,1.404,50.32,3.92 c4.368,0.663,8.447-2.341,9.11-6.709c0.065-0.427,0.095-0.859,0.09-1.291V98.944h19.12L396.64,333.664z”&gt;&lt;/path&gt;&lt;/svg&gt;&lt;img&gt;&lt;/span&gt; &lt;/a&gt; &lt;/div&gt; &lt;/div&gt; &lt;div class=“u-align-left u-container-style u-layout-cell u-left-cell u-size-30 u-layout-cell-2”&gt; &lt;div class=“u-container-layout u-valign-top u-container-layout-2”&gt; &lt;h3 class=“u-text u-text-default u-text-5”&gt;Communication with your supervisor&lt;/h3&gt; &lt;p class=“u-text u-text-6”&gt; Your supervisor has a vested interest in your success. Set the right tone and communication style when you meet with them.&lt;/p&gt; &lt;a href=“https://www.nature.com/articles/d41586-021-03703-z” class=“u-align-right u-btn u-button-style u-none u-text-hover-palette-1-base u-text-palette-2-base u-btn-2” target=“_blank”&gt;Read More&nbsp;&lt;span class=“u-icon u-text-palette-2-base u-icon-2”&gt;&lt;svg class=“u-svg-content” viewBox=“0 0 412.72 412.72” x=“0px” y=“0px” style=“width: 1em; height: 1em;”&gt;&lt;path d=“M404.72,82.944c-0.027,0-0.054,0-0.08,0h0h-27.12v-9.28c0.146-3.673-2.23-6.974-5.76-8 c-18.828-4.934-38.216-7.408-57.68-7.36c-32,0-75.6,7.2-107.84,40c-32-33.12-75.92-40-107.84-40 c-19.464-0.048-38.852,2.426-57.68,7.36c-3.53,1.026-5.906,4.327-5.76,8v9.2H8c-4.418,0-8,3.582-8,8v255.52c0,4.418,3.582,8,8,8 c1.374-0.004,2.724-0.362,3.92-1.04c0.8-0.4,80.8-44.16,192.48-16h1.2h0.72c0.638,0.077,1.282,0.077,1.92,0 c112-28.4,192,15.28,192.48,16c2.475,1.429,5.525,1.429,8,0c2.46-1.42,3.983-4.039,4-6.88V90.944 C412.72,86.526,409.139,82.944,404.72,82.944z M16,333.664V98.944h19.12v200.64c-0.05,4.418,3.491,8.04,7.909,8.09 c0.432,0.005,0.864-0.025,1.291-0.09c16.55-2.527,33.259-3.864,50-4c23.19-0.402,46.283,3.086,68.32,10.32 C112.875,307.886,62.397,314.688,16,333.664z M94.32,287.664c-14.551,0.033-29.085,0.968-43.52,2.8V79.984 c15.576-3.47,31.482-5.241,47.44-5.28c29.92,0,71.2,6.88,99.84,39.2l0.24,199.28C181.68,302.304,149.2,287.664,94.32,287.664z M214.32,113.904c28.64-32,69.92-39.2,99.84-39.2c15.957,0.047,31.863,1.817,47.44,5.28v210.48 c-14.354-1.849-28.808-2.811-43.28-2.88c-54.56,0-87.12,14.64-104,25.52V113.904z M396.64,333.664 c-46.496-19.028-97.09-25.831-146.96-19.76c22.141-7.26,45.344-10.749,68.64-10.32c16.846,0.094,33.663,1.404,50.32,3.92 c4.368,0.663,8.447-2.341,9.11-6.709c0.065-0.427,0.095-0.859,0.09-1.291V98.944h19.12L396.64,333.664z”&gt;&lt;/path&gt;&lt;/svg&gt;&lt;img&gt;&lt;/span&gt; &lt;/a&gt; &lt;/div&gt; &lt;/div&gt; &lt;/div&gt; &lt;/div&gt; &lt;div class=“u-size-20 u-size-30-md”&gt; &lt;div class=“u-layout-row”&gt; &lt;div class=“u-align-left u-container-style u-image u-layout-cell u-size-60 u-image-1” src=“” data-image-width=“1331” data-image-height=“2004”&gt; &lt;div class=“u-container-layout u-valign-top u-container-layout-3” src=““&gt;&lt;/div&gt; &lt;/div&gt; &lt;/div&gt; &lt;/div&gt; &lt;div class=”u-size-20 u-size-60-md”&gt; &lt;div class=“u-layout-col”&gt; &lt;div class=“u-align-left u-container-style u-layout-cell u-right-cell u-size-30 u-layout-cell-4”&gt; &lt;div class=“u-container-layout u-valign-top u-container-layout-4”&gt; &lt;h3 class=“u-text u-text-default u-text-7”&gt; Waiting for the motivation fairy&lt;/h3&gt; &lt;p class=“u-text u-text-8”&gt; It’s easy to give in to procrastination — but Hugh Kearns and Maria Gardiner offer some tips for getting your drive back.&lt;/p&gt; &lt;a href=“https://www.ithinkwell.com.au/content/NatureProcrastination.pdf” class=“u-align-right u-btn u-button-style u-none u-text-hover-palette-1-base u-text-palette-2-base u-btn-3” target=“_blank”&gt;Read More&nbsp;&lt;span class=“u-icon u-text-palette-2-base u-icon-3”&gt;&lt;svg class=“u-svg-content” viewBox=“0 0 412.72 412.72” x=“0px” y=“0px” style=“width: 1em; height: 1em;”&gt;&lt;path d=“M404.72,82.944c-0.027,0-0.054,0-0.08,0h0h-27.12v-9.28c0.146-3.673-2.23-6.974-5.76-8 c-18.828-4.934-38.216-7.408-57.68-7.36c-32,0-75.6,7.2-107.84,40c-32-33.12-75.92-40-107.84-40 c-19.464-0.048-38.852,2.426-57.68,7.36c-3.53,1.026-5.906,4.327-5.76,8v9.2H8c-4.418,0-8,3.582-8,8v255.52c0,4.418,3.582,8,8,8 c1.374-0.004,2.724-0.362,3.92-1.04c0.8-0.4,80.8-44.16,192.48-16h1.2h0.72c0.638,0.077,1.282,0.077,1.92,0 c112-28.4,192,15.28,192.48,16c2.475,1.429,5.525,1.429,8,0c2.46-1.42,3.983-4.039,4-6.88V90.944 C412.72,86.526,409.139,82.944,404.72,82.944z M16,333.664V98.944h19.12v200.64c-0.05,4.418,3.491,8.04,7.909,8.09 c0.432,0.005,0.864-0.025,1.291-0.09c16.55-2.527,33.259-3.864,50-4c23.19-0.402,46.283,3.086,68.32,10.32 C112.875,307.886,62.397,314.688,16,333.664z M94.32,287.664c-14.551,0.033-29.085,0.968-43.52,2.8V79.984 c15.576-3.47,31.482-5.241,47.44-5.28c29.92,0,71.2,6.88,99.84,39.2l0.24,199.28C181.68,302.304,149.2,287.664,94.32,287.664z M214.32,113.904c28.64-32,69.92-39.2,99.84-39.2c15.957,0.047,31.863,1.817,47.44,5.28v210.48 c-14.354-1.849-28.808-2.811-43.28-2.88c-54.56,0-87.12,14.64-104,25.52V113.904z M396.64,333.664 c-46.496-19.028-97.09-25.831-146.96-19.76c22.141-7.26,45.344-10.749,68.64-10.32c16.846,0.094,33.663,1.404,50.32,3.92 c4.368,0.663,8.447-2.341,9.11-6.709c0.065-0.427,0.095-0.859,0.09-1.291V98.944h19.12L396.64,333.664z”&gt;&lt;/path&gt;&lt;/svg&gt;&lt;img&gt;&lt;/span&gt; &lt;/a&gt; &lt;/div&gt; &lt;/div&gt; &lt;div class=“u-align-left u-container-style u-layout-cell u-right-cell u-size-30 u-layout-cell-5”&gt; &lt;div class=“u-container-layout u-valign-top u-container-layout-5”&gt; &lt;h3 class=“u-text u-text-default u-text-9”&gt; Escape Your Chair challenge&lt;/h3&gt; &lt;p class=“u-text u-text-10”&gt; Escape your chair by signing up to this challenge&lt;/p&gt; &lt;a href=“https://irishheart.ie/campaigns/escape-your-chair/escape-your-chair-challenge/” class=“u-align-right u-btn u-button-style u-none u-text-hover-palette-1-base u-text-palette-2-base u-btn-4” target=“_blank”&gt;Read More&nbsp;&lt;span class=“u-icon u-text-palette-2-base u-icon-4”&gt;&lt;svg class=“u-svg-content” viewBox=“0 0 412.72 412.72” x=“0px” y=“0px” style=“width: 1em; height: 1em;”&gt;&lt;path d=“M404.72,82.944c-0.027,0-0.054,0-0.08,0h0h-27.12v-9.28c0.146-3.673-2.23-6.974-5.76-8 c-18.828-4.934-38.216-7.408-57.68-7.36c-32,0-75.6,7.2-107.84,40c-32-33.12-75.92-40-107.84-40 c-19.464-0.048-38.852,2.426-57.68,7.36c-3.53,1.026-5.906,4.327-5.76,8v9.2H8c-4.418,0-8,3.582-8,8v255.52c0,4.418,3.582,8,8,8 c1.374-0.004,2.724-0.362,3.92-1.04c0.8-0.4,80.8-44.16,192.48-16h1.2h0.72c0.638,0.077,1.282,0.077,1.92,0 c112-28.4,192,15.28,192.48,16c2.475,1.429,5.525,1.429,8,0c2.46-1.42,3.983-4.039,4-6.88V90.944 C412.72,86.526,409.139,82.944,404.72,82.944z M16,333.664V98.944h19.12v200.64c-0.05,4.418,3.491,8.04,7.909,8.09 c0.432,0.005,0.864-0.025,1.291-0.09c16.55-2.527,33.259-3.864,50-4c23.19-0.402,46.283,3.086,68.32,10.32 C112.875,307.886,62.397,314.688,16,333.664z M94.32,287.664c-14.551,0.033-29.085,0.968-43.52,2.8V79.984 c15.576-3.47,31.482-5.241,47.44-5.28c29.92,0,71.2,6.88,99.84,39.2l0.24,199.28C181.68,302.304,149.2,287.664,94.32,287.664z M214.32,113.904c28.64-32,69.92-39.2,99.84-39.2c15.957,0.047,31.863,1.817,47.44,5.28v210.48 c-14.354-1.849-28.808-2.811-43.28-2.88c-54.56,0-87.12,14.64-104,25.52V113.904z M396.64,333.664 c-46.496-19.028-97.09-25.831-146.96-19.76c22.141-7.26,45.344-10.749,68.64-10.32c16.846,0.094,33.663,1.404,50.32,3.92 c4.368,0.663,8.447-2.341,9.11-6.709c0.065-0.427,0.095-0.859,0.09-1.291V98.944h19.12L396.64,333.664z”&gt;&lt;/path&gt;&lt;/svg&gt;&lt;img&gt;&lt;/span&gt; &lt;/a&gt; &lt;/div&gt; &lt;/div&gt; &lt;/div&gt; &lt;/div&gt; &lt;/div&gt; &lt;/div&gt; &lt;/div&gt; &lt;/div&gt; &lt;/section&gt; &lt;section class=“u-align-center u-clearfix u-shading u-video u-video-cover u-section-3” src=“” id=“sec-c90f”&gt; &lt;div class=“u-background-video u-expanded” style=“filter: brightness(0.35);”&gt; &lt;div class=“embed-responsive embed-responsive-1”&gt; &lt;iframe style=“position: absolute;top: 0;left: 0;width: 100%;height: 100%;” class=“embed-responsive-item” src=“./TheTuringPoint Issue 1_files/466020028.html” data-autoplay=“1” frameborder=“0” allowfullscreen=““&gt;&lt;/iframe&gt; &lt;/div&gt; &lt;/div&gt; &lt;div class=”u-clearfix u-sheet u-sheet-1”&gt; &lt;h1 class=“u-text u-text-1”&gt;Find Your CRT-AI Science Buddy&lt;/h1&gt; &lt;p class=“u-text u-text-2”&gt;Fancy a collaboration with your CRT-AI mates? You have created that amazing tool but nobody knows about it? You have spent hundreds of hours gathering this incredible database but you are the only one using it? We have your back!&lt;br&gt; &lt;br&gt;The CRT-AI’s Padlet now provides you with a nice place to advertise your work and find your AI soulmate &lt;3. Whether you are looking for a collaboration or have a nice database to share, you can publish a post with everything you want people to know. If it isn’t your case yet, remember to save this Padlet to your favorites; you could be surprised by how inspiring this mood board will soon be! Here we welcome every single one of our members and want everyone to feel comfortable. You can therefore post by yourself or by filling in our special form! &lt;/p&gt; &lt;a href=“https://padlet.com/murata3/kehzurdumkmdsqqr” class=“u-align-center-sm u-align-center-xs u-btn u-button-style u-palette-2-base u-btn-1” target=“_blank”&gt; &lt;span style=“font-weight: normal;”&gt;Find your buddy&lt;/span&gt; &lt;/a&gt; &lt;a href=“https://forms.gle/VzWZx7dLm6Scbxv68” class=“u-active-none u-align-center-sm u-align-center-xs u-border-2 u-border-active-palette-2-dark-1 u-border-hover-palette-2-base u-border-palette-1-base u-btn u-button-style u-hover-none u-none u-text-hover-palette-2-base u-text-palette-1-base u-btn-2” target=“_blank”&gt;or fill the form and we will do the job&lt;/a&gt; &lt;/div&gt; &lt;/section&gt; &lt;section class=“u-align-center u-clearfix u-section-4” id=“sec-b488”&gt; &lt;div class=“u-clearfix u-sheet u-sheet-1”&gt; &lt;h5 class=“u-text u-text-default u-text-1”&gt;featured article&lt;/h5&gt; &lt;h1 class=“u-text u-text-default u-text-2”&gt;BlueDot: AI Goes Viral &lt;/h1&gt; &lt;h6 class=“u-align-center u-text u-text-grey-50 u-text-3”&gt;&lt;i&gt;by Yanlin Mi&lt;/i&gt; &lt;/h6&gt; &lt;p class=“u-align-justify u-text u-text-4”&gt;Before the COVID-19 pandemic swept the globe, Artificial Intelligence (AI) was already being used in almost every industry. In the global fight against the COVID-19 pandemic, it has completely entered the human living space. A new generation of information technology, such as artificial intelligence, has improved human cognition and disease understanding in the fields of medical care, health, and public health.&lt;br&gt;AI and big data predictive modeling are improving and becoming increasingly more accurate, implying more accurate disease spread projections, and more time to produce more effective treatments.&nbsp;&lt;br&gt; &lt;br&gt;BlueDot is a AI data-driven public health risk assessment firm that specializes in tracking, finding, and conceptualizing the spread of infectious illnesses. It accomplishes this by combining (AI) and Natural Language Processing (NLP) techniques to process data from a variety of sources, including national statistical reports from various regions, global news media, global airline ticket data, population density data, global infectious disease alerts, climate reports, and insect vector and animal disease repositories. These datasets are used to train AI models, which allow their systems to deliver warnings in real time and on a consistent basis. This makes it possible to conduct “automated infectious disease surveillance”.&lt;br&gt; &lt;br&gt;Indeed,&nbsp;BlueDot detected the COVID-19 pandemic in Wuhan on December 31, 2019, 6 days before the US Centers for Disease Control and Prevention (CDC) and 9 days before the World Health Organization (WHO) issued a warning. It was among the first in the world to identify the emerging risk from COVID-19 in Hubei province.&nbsp;&lt;br&gt; &lt;br&gt;It is through the daily analysis of 100,000 articles in 65 languages with keywords related to pandemic diseases, animal diseases, public health, and global flight dynamics, which BlueDot uses to track the flow of infected populations by analysing a global database of airline tickets in order to predict the next cities to be infected and inform its clients of potential outbreaks and the spread of infectious diseases.&nbsp;&lt;br&gt;Yet, BlueDot’s application is not restricted to Covid-19, and six months before the official report in 2016, BlueDot had predicted the spread of Zika virus to Florida. In 2014, Bluedot&nbsp; had also correctly predicted the danger of an Ebola virus outbreak in West Africa. BlueDot’s COVID Data Suite delivers bespoke, near-real-time intelligence to governments, hospitals and airlines, to track COVID-19’s movements, and states that the technology can also be used to track disorders including meningitis, yellow fever, and anthrax.&lt;br&gt; &lt;/p&gt; &lt;a href=“https://www.cnbc.com/2020/03/03/bluedot-used-artificial-intelligence-to-predict-coronavirus-spread.html” class=“u-align-right u-btn u-button-style u-none u-text-hover-palette-1-base u-text-palette-2-base u-btn-1” target=“_blank”&gt;Read more&lt;span class=“u-icon u-text-palette-2-base u-icon-1”&gt;&lt;svg class=“u-svg-content” viewBox=“0 0 412.72 412.72” x=“0px” y=“0px” style=“width: 1em; height: 1em;”&gt;&lt;path d=“M404.72,82.944c-0.027,0-0.054,0-0.08,0h0h-27.12v-9.28c0.146-3.673-2.23-6.974-5.76-8 c-18.828-4.934-38.216-7.408-57.68-7.36c-32,0-75.6,7.2-107.84,40c-32-33.12-75.92-40-107.84-40 c-19.464-0.048-38.852,2.426-57.68,7.36c-3.53,1.026-5.906,4.327-5.76,8v9.2H8c-4.418,0-8,3.582-8,8v255.52c0,4.418,3.582,8,8,8 c1.374-0.004,2.724-0.362,3.92-1.04c0.8-0.4,80.8-44.16,192.48-16h1.2h0.72c0.638,0.077,1.282,0.077,1.92,0 c112-28.4,192,15.28,192.48,16c2.475,1.429,5.525,1.429,8,0c2.46-1.42,3.983-4.039,4-6.88V90.944 C412.72,86.526,409.139,82.944,404.72,82.944z M16,333.664V98.944h19.12v200.64c-0.05,4.418,3.491,8.04,7.909,8.09 c0.432,0.005,0.864-0.025,1.291-0.09c16.55-2.527,33.259-3.864,50-4c23.19-0.402,46.283,3.086,68.32,10.32 C112.875,307.886,62.397,314.688,16,333.664z M94.32,287.664c-14.551,0.033-29.085,0.968-43.52,2.8V79.984 c15.576-3.47,31.482-5.241,47.44-5.28c29.92,0,71.2,6.88,99.84,39.2l0.24,199.28C181.68,302.304,149.2,287.664,94.32,287.664z M214.32,113.904c28.64-32,69.92-39.2,99.84-39.2c15.957,0.047,31.863,1.817,47.44,5.28v210.48 c-14.354-1.849-28.808-2.811-43.28-2.88c-54.56,0-87.12,14.64-104,25.52V113.904z M396.64,333.664 c-46.496-19.028-97.09-25.831-146.96-19.76c22.141-7.26,45.344-10.749,68.64-10.32c16.846,0.094,33.663,1.404,50.32,3.92 c4.368,0.663,8.447-2.341,9.11-6.709c0.065-0.427,0.095-0.859,0.09-1.291V98.944h19.12L396.64,333.664z”&gt;&lt;/path&gt;&lt;/svg&gt;&lt;img&gt;&lt;/span&gt; &lt;/a&gt; &lt;/div&gt; &lt;/section&gt; &lt;section class=“u-align-center u-clearfix u-grey-5 u-section-5” id=“sec-9d0b”&gt; &lt;div class=“u-clearfix u-sheet u-sheet-1”&gt; &lt;div class=“u-align-center-lg u-align-center-md u-align-center-sm u-align-center-xs u-align-left-xl u-expanded-width-sm u-expanded-width-xs u-video u-video-1”&gt; &lt;div class=“embed-responsive embed-responsive-1”&gt; &lt;iframe style=“position: absolute;top: 0;left: 0;width: 100%;height: 100%;” class=“embed-responsive-item” src=“./TheTuringPoint Issue 1_files/6ylWPEEfftc.html” frameborder=“0” allowfullscreen=““&gt;&lt;/iframe&gt; &lt;/div&gt; &lt;/div&gt; &lt;h1 class=”u-align-center-lg u-align-center-md u-align-center-sm u-align-center-xs u-text u-text-default u-text-1”&gt; Turing Point Podcast&lt;/h1&gt; &lt;p class=“u-align-center-lg u-align-center-md u-align-center-sm u-align-center-xs u-text u-text-2”&gt; The inaugural Turing Point Podcast! Cathy Roche moderates a lively conversation with Dr.&nbsp;Dave Lewis and ​Dr.&nbsp;P.J. Wall about AI Ethics and how AI technology can have a positive impact!&lt;/p&gt; &lt;/div&gt; &lt;/section&gt; &lt;section class=“u-align-center u-clearfix u-white u-section-6” id=“sec-0b12”&gt; &lt;div class=“u-clearfix u-sheet u-sheet-1”&gt; &lt;h1 class=“u-text u-text-1”&gt;&lt;b&gt;A&lt;/b&gt;rtificial &lt;b&gt;I&lt;/b&gt;ntelligence &lt;b&gt;D&lt;/b&gt;ictionary &lt;/h1&gt; &lt;h4 class=“u-text u-text-grey-75 u-text-2”&gt; Coming to your AID (AI Dictionary)&lt;/h4&gt; &lt;h6 class=“u-text u-text-grey-50 u-text-3”&gt;&lt;i&gt;by ​Cathy Roche&lt;/i&gt; &lt;/h6&gt; &lt;div id=“carousel-5989” data-interval=“5000” data-u-ride=“carousel” class=“u-carousel u-expanded-width-sm u-expanded-width-xs u-slider u-slider-1”&gt; &lt;ol class=“u-absolute-hcenter u-carousel-indicators u-carousel-indicators-1”&gt; &lt;li data-u-target=“#carousel-5989” class=“u-grey-30 u-shape-circle” data-u-slide-to=“0” style=“width: 10px; height: 10px;”&gt;&lt;/li&gt; &lt;li data-u-target=“#carousel-5989” class=“u-grey-30 u-shape-circle u-active” data-u-slide-to=“1” style=“width: 10px; height: 10px;”&gt;&lt;/li&gt; &lt;li data-u-target=“#carousel-5989” class=“u-grey-30 u-shape-circle” data-u-slide-to=“2” style=“width: 10px; height: 10px;”&gt;&lt;/li&gt; &lt;li data-u-target=“#carousel-5989” class=“u-grey-30 u-shape-circle” data-u-slide-to=“3” style=“width: 10px; height: 10px;”&gt;&lt;/li&gt; &lt;li data-u-target=“#carousel-5989” class=“u-grey-30 u-shape-circle” data-u-slide-to=“4” style=“width: 10px; height: 10px;”&gt;&lt;/li&gt; &lt;/ol&gt; &lt;div class=“u-carousel-inner” role=“listbox”&gt; &lt;div class=“u-carousel-item u-container-style u-slide u-carousel-item-1”&gt; &lt;div class=“u-container-layout u-valign-top u-container-layout-1”&gt; &lt;h3 class=“u-align-center u-text u-text-default u-text-4”&gt;&lt;b&gt; Artificial Intelligence&lt;/b&gt; &lt;/h3&gt; &lt;h5 class=“u-align-center u-custom-font u-font-roboto-slab u-text u-text-default u-text-5”&gt; /ɑː(ɹ)təˈfɪʃəl//ɪnˈtelɪdʒəns/&lt;/h5&gt; &lt;p class=“u-align-justify u-text u-text-6”&gt; As a term, Artificial Intelligence (AI), refers to computer systems that perform functions and tasks, such as facial recognition, once thought to be exclusive abilities of living, intellectual beings.&nbsp; Computer systems can be designed to achieve goals similar to human activity (e.g.&nbsp;learning and reasoning). AI can also be optimised to exceed human competencies, including identifying variables that have the greatest impact on an outcome. While the definition of AI has endured over time, examples of such technology have varied as the ability of computer systems to simulate human behaviour and thinking has progressed. A computer’s ability to play chess was once considered an example of AI, now Artificial Intelligence is used to describe smart assistants and self-driving cars.&lt;/p&gt; &lt;/div&gt; &lt;/div&gt; &lt;div class=“u-carousel-item u-container-style u-slide u-carousel-item-2 u-active”&gt; &lt;div class=“u-container-layout u-valign-top u-container-layout-2”&gt; &lt;h3 class=“u-align-center u-text u-text-default u-text-7”&gt;&lt;b&gt;&lt;/b&gt;&lt;b&gt;Machine Learning&lt;/b&gt; &lt;/h3&gt; &lt;h5 class=“u-align-center u-custom-font u-font-roboto-slab u-text u-text-default u-text-8”&gt; /məˈʃiːn/ /ˈlɜːnɪŋ/&lt;/h5&gt; &lt;p class=“u-align-justify u-text u-text-9”&gt; A branch of Artificial Intelligence, Machine Learning (ML) is a technique based on systems learning from data. ML describes how a computer system teaches itself to identify patterns within the data and can make decisions with little human input. As the machine learns automatically from past data, there is no need for explicit programming. Through ML, data is analysed through the automated building of analytical models: the system adapts its algorithms to improve the accuracy of pattern detection simply based on the data observed and using its own statistical tools. Just as humans make decisions based on our previous experience, ML enables computers to keep learning and adapting by inputting new data. For example, look at how humans learn about dogs. Our initial dataset may include seeing family pets, dogs on TV or looking at pictures online. From this dataset, we feel we are able to identify whether future animals with a tail, four legs and of a certain size are in fact dogs. What happens when we get data about dogs that is different from our initial dataset e.g.&nbsp;a fox is not a domestic dog?&nbsp; What we do is refine our thinking about dogs so that in future, we will be able to determine more accurately what is a dog when we see dogs of a different height and weight.&lt;/p&gt; &lt;/div&gt; &lt;/div&gt; &lt;div class=“u-carousel-item u-container-style u-slide u-carousel-item-3”&gt; &lt;div class=“u-container-layout u-valign-top u-container-layout-3”&gt; &lt;h3 class=“u-align-center u-text u-text-default u-text-10”&gt;&lt;b&gt;&lt;/b&gt;&lt;b&gt;Neural Network&lt;/b&gt; &lt;/h3&gt; &lt;h5 class=“u-align-center u-custom-font u-font-roboto-slab u-text u-text-default u-text-11”&gt; &nbsp;/ˈnjʊər(ə)l/ /ˈnɛtwəːk/&lt;/h5&gt; &lt;p class=“u-align-justify u-text u-text-12”&gt; Structured in a way similar to how neurons are organised in the brain, artificial neural networks (or neural networks) are a set of algorithms designed to recognise patterns. Consisting of layers of nodes,&nbsp; each designed to behave in a way comparable to a neuron, neural networks are used in Deep Learning.&nbsp; The first layer is the input layer, then there are hidden layers and lastly, the output layer.&nbsp; Each node performs a calculation and this is then passed to other nodes in the neural network. Within this model, the neurons (which are really perceptrons) receive the input, apply an assigned weight and as the model is trained, these weights can be adjusted to make the model more accurate. Neural networks can be used to classify and cluster and there are several types, such as recurrent or convolutional. The usability of a certain type of neural network depends on the task or application being undertaken.&nbsp;&nbsp;&lt;/p&gt; &lt;/div&gt; &lt;/div&gt; &lt;div class=“u-carousel-item u-container-style u-slide u-carousel-item-4”&gt; &lt;div class=“u-container-layout u-valign-top u-container-layout-4”&gt; &lt;h3 class=“u-align-center u-text u-text-default u-text-13”&gt;&lt;b&gt;&lt;/b&gt;&lt;b&gt;Bias&lt;/b&gt; &lt;/h3&gt; &lt;h5 class=“u-align-center u-custom-font u-font-roboto-slab u-text u-text-default u-text-14”&gt; /ˈbʌɪəs/&lt;/h5&gt; &lt;p class=“u-align-justify u-text u-text-15”&gt; AI systems use machine learning algorithms to perform their function. These algorithms train on data and can often produce results which reflect erroneous assumptions in that data. This is because the data has human prejudices, both conscious and unconscious, encoded within it. Bias can take many forms, such as gender discrimination, ageism or racial prejudice. While AI systems reproduce human biases, they also scale them: perpetuating bias in decision-making to a level that could constitute algorithmic discrimination. An AI is considered biased if the decisions it makes penalise or reward groups of people for reasons that are prejudiced.AI bias can stem from several sources, including&lt;br&gt; &lt;/p&gt; &lt;ul class=“u-align-justify u-text u-text-16”&gt; &lt;li&gt; Low quality of the data used for training models. For example, by using an AI-based recruiting tool in a predominantly male company or industry. Training on historical employee data, it is likely that the AI tool will replicate gender bias.&lt;/li&gt; &lt;li&gt;How training data is collected and or processed. For example, a data scientist may exclude important entries or end up under- or over-sampling which can penalise minority classes.&lt;br&gt;Datasets that are not robust. &lt;/li&gt; &lt;li&gt;For example, a dataset which fails to distinguish between different groups could lead to decisions which treat people in a uniform way, without considering important differences.&lt;/li&gt; &lt;li&gt;Weak model validation. For example, a model may perform very well on the training data but not be generalisable.&lt;/li&gt; &lt;li&gt;Implicit bias: For example, where human biases are already encoded in the datasets.&lt;/li&gt; &lt;/ul&gt; &lt;/div&gt; &lt;/div&gt; &lt;div class=“u-carousel-item u-container-style u-slide u-carousel-item-5”&gt; &lt;div class=“u-container-layout u-container-layout-5”&gt; &lt;h3 class=“u-align-center u-text u-text-default u-text-17”&gt;&lt;b&gt; Ethics Washing&lt;/b&gt; &lt;/h3&gt; &lt;h5 class=“u-align-center u-custom-font u-font-roboto-slab u-text u-text-default u-text-18”&gt; /ˈɛθɪks/ /ˈwɒʃɪŋ/&lt;/h5&gt; &lt;p class=“u-align-justify u-text u-text-19”&gt; Also known as ethics shopping or ethics theatre, ethics washing refers to when an organisation pays lip service to ethics to signal to the public, shareholders and policy-makers that it is committed to responsible AI development but does little to ensure it happens in practice. In this way, an organisation can appear to take AI ethics seriously but in reality it is window dressing. The ethical policies and frameworks adopted are mainly for show and do not create any real accountability or obligation on the organisation.&nbsp; Ethics washing is used to avoid external regulation and official scrutiny by appearing to have voluntarily adopted broad ethical obligations. The problem of ethics washing is that it masks whether organisations are actually making efforts towards developing ethical AI systems.&lt;/p&gt; &lt;/div&gt; &lt;/div&gt; &lt;/div&gt; &lt;a class=“u-absolute-vcenter u-carousel-control u-carousel-control-prev u-grey-70 u-hidden-xs u-icon-circle u-spacing-10 u-carousel-control-1” href=“https://crtai.news/TheTuringPoint-Issue-1.html#carousel-5989” role=“button” data-u-slide=“prev”&gt; &lt;span aria-hidden=“true”&gt; &lt;svg viewBox=“0 0 451.847 451.847”&gt;&lt;path d=“M97.141,225.92c0-8.095,3.091-16.192,9.259-22.366L300.689,9.27c12.359-12.359,32.397-12.359,44.751,0 c12.354,12.354,12.354,32.388,0,44.748L173.525,225.92l171.903,171.909c12.354,12.354,12.354,32.391,0,44.744 c-12.354,12.365-32.386,12.365-44.745,0l-194.29-194.281C100.226,242.115,97.141,234.018,97.141,225.92z”&gt;&lt;/path&gt;&lt;/svg&gt; &lt;/span&gt; &lt;span class=“sr-only”&gt; &lt;svg viewBox=“0 0 451.847 451.847”&gt;&lt;path d=“M97.141,225.92c0-8.095,3.091-16.192,9.259-22.366L300.689,9.27c12.359-12.359,32.397-12.359,44.751,0 c12.354,12.354,12.354,32.388,0,44.748L173.525,225.92l171.903,171.909c12.354,12.354,12.354,32.391,0,44.744 c-12.354,12.365-32.386,12.365-44.745,0l-194.29-194.281C100.226,242.115,97.141,234.018,97.141,225.92z”&gt;&lt;/path&gt;&lt;/svg&gt; &lt;/span&gt; &lt;/a&gt; &lt;a class=“u-absolute-vcenter u-carousel-control u-carousel-control-next u-grey-70 u-hidden-xs u-icon-circle u-spacing-10 u-carousel-control-2” href=“https://crtai.news/TheTuringPoint-Issue-1.html#carousel-5989” role=“button” data-u-slide=“next”&gt; &lt;span aria-hidden=“true”&gt; &lt;svg viewBox=“0 0 451.846 451.847”&gt;&lt;path d=“M345.441,248.292L151.154,442.573c-12.359,12.365-32.397,12.365-44.75,0c-12.354-12.354-12.354-32.391,0-44.744 L278.318,225.92L106.409,54.017c-12.354-12.359-12.354-32.394,0-44.748c12.354-12.359,32.391-12.359,44.75,0l194.287,194.284 c6.177,6.18,9.262,14.271,9.262,22.366C354.708,234.018,351.617,242.115,345.441,248.292z”&gt;&lt;/path&gt;&lt;/svg&gt; &lt;/span&gt; &lt;span class=“sr-only”&gt; &lt;svg viewBox=“0 0 451.846 451.847”&gt;&lt;path d=“M345.441,248.292L151.154,442.573c-12.359,12.365-32.397,12.365-44.75,0c-12.354-12.354-12.354-32.391,0-44.744 L278.318,225.92L106.409,54.017c-12.354-12.359-12.354-32.394,0-44.748c12.354-12.359,32.391-12.359,44.75,0l194.287,194.284 c6.177,6.18,9.262,14.271,9.262,22.366C354.708,234.018,351.617,242.115,345.441,248.292z”&gt;&lt;/path&gt;&lt;/svg&gt; &lt;/span&gt; &lt;/a&gt; &lt;/div&gt; &lt;/div&gt; &lt;/section&gt; &lt;section class=“u-align-center u-clearfix u-grey-5 u-section-7” id=“carousel_1b80”&gt; &lt;div class=“u-clearfix u-sheet u-sheet-1”&gt; &lt;h4 class=“u-align-center u-text u-text-default-lg u-text-default-md u-text-default-sm u-text-default-xs u-text-grey-60 u-text-1”&gt;COMPETITION&lt;/h4&gt; &lt;div class=“u-container-style u-expanded-width-sm u-expanded-width-xs u-group u-group-1”&gt; &lt;div class=“u-container-layout u-container-layout-1”&gt; &lt;h1 class=“u-align-center u-text u-text-default u-text-2”&gt; LOL My Thesis&lt;/h1&gt; &lt;p class=“u-align-justify u-text u-text-3”&gt; &lt;span style=“font-weight: normal;”&gt; Tired of that too serious life? Take a step back and tell us about that laughable work you’ve been exhausting yourself on! Here it can be about your thesis, a project you have been working on, your Master’s or Bachelor’s dissertation, etc. It does not matter. All we want you to do is to provide us with a new title that highlights the absurdity of your work.&lt;a href=“https://lolmythesis.com/” class=“u-active-none u-border-none u-btn u-button-style u-hover-none u-none u-text-palette-1-base u-btn-1”&gt; https://lolmythesis.com/&lt;/a&gt; is a rich bank of hilarious examples, and we might have stolen their idea. Yet, we know that misery does not only affect others, and now we want to laugh at our CRT-AI community. Come up with your best line and submit it here! &lt;/span&gt;The best ones will receive a chocolate bar&lt;span style=“font-weight: normal;”&gt; and&nbsp;be featured in our next issue!&lt;/span&gt; &lt;/p&gt; &lt;/div&gt; &lt;/div&gt; &lt;div class=“u-clearfix u-gutter-0 u-layout-custom-sm u-layout-custom-xs u-layout-wrap u-layout-wrap-1”&gt; &lt;div class=“u-layout”&gt; &lt;div class=“u-layout-row”&gt; &lt;div class=“u-align-center-sm u-align-center-xs u-align-right-lg u-align-right-md u-align-right-xl u-container-style u-layout-cell u-left-cell u-size-30-lg u-size-30-md u-size-30-xl u-size-60-sm u-size-60-xs u-layout-cell-1”&gt; &lt;div class=“u-container-layout u-valign-bottom-sm u-valign-bottom-xs u-valign-middle-lg u-valign-middle-md u-valign-middle-xl u-container-layout-2”&gt; &lt;a href=“https://forms.gle/ZUwfj4qaGne9Z7ZM7” class=“u-btn u-button-style u-palette-2-base u-btn-2” target=“_blank”&gt;Send your entry&lt;/a&gt; &lt;/div&gt; &lt;/div&gt; &lt;div class=“u-align-center-sm u-align-center-xs u-align-left-lg u-align-left-md u-align-left-xl u-container-style u-layout-cell u-right-cell u-size-30-lg u-size-30-md u-size-30-xl u-size-60-sm u-size-60-xs u-layout-cell-2”&gt; &lt;div class=“u-container-layout u-valign-middle-lg u-valign-middle-md u-valign-middle-xl u-valign-top-sm u-valign-top-xs u-container-layout-3”&gt; &lt;a href=“https://lolmythesis.com/” class=“u-border-2 u-border-grey-75 u-btn u-button-style u-none u-btn-3” target=“_blank”&gt;see examples&lt;/a&gt; &lt;/div&gt; &lt;/div&gt; &lt;/div&gt; &lt;/div&gt; &lt;/div&gt; &lt;/div&gt; &lt;/section&gt; &lt;section class=“u-align-center u-clearfix u-section-8” id=“sec-5583”&gt; &lt;div class=“u-clearfix u-sheet u-sheet-1”&gt; &lt;h1 class=“u-text u-text-default u-text-1”&gt; History of Neural Networks&lt;/h1&gt; &lt;h6 class=“u-align-center u-text u-text-grey-50 u-text-2”&gt;&lt;i&gt; by Sharmi Dev Gupta and Lavanya ​Vinod Pampana&lt;/i&gt; &lt;/h6&gt; &lt;p class=“u-align-justify u-text u-text-3”&gt; It all starts with a fundamental question, “do machines think?” rather, “can we make machines think?”. If we could replicate the human brain in the best possible way, we might just achieve it. Make the impossible possible. The next question that entails in replication is more philosophical, “what is intelligence”? Is it innate to living organisms or is it something that can be synthesized?&nbsp;&lt;/p&gt; &lt;div class=“u-accordion u-collapsed-by-default u-expanded-width u-faq u-spacing-20 u-accordion-1”&gt; &lt;div class=“u-accordion-item”&gt; &lt;a class=“u-accordion-link u-border-1 u-border-active-grey-75 u-border-grey-15 u-border-hover-grey-75 u-border-no-left u-border-no-right u-border-no-top u-button-style u-text-black u-accordion-link-1” id=“link-accordion-6327” aria-controls=“accordion-6327” aria-selected=“false”&gt; &lt;span class=“u-accordion-link-text”&gt;Read more&lt;/span&gt;&lt;span class=“u-accordion-link-icon u-icon u-text-black u-icon-1”&gt;&lt;svg class=“u-svg-link” preserveAspectRatio=“xMidYMin slice” viewBox=“0 0 16 16” style=““&gt;&lt;use xmlns:xlink=”http://www.w3.org/1999/xlink” xlink:href=“#svg-8021”&gt;&lt;/use&gt;&lt;/svg&gt;&lt;svg class=“u-svg-content” viewBox=“0 0 16 16” x=“0px” y=“0px” id=“svg-8021” style=““&gt;&lt;path d=”M8,10.7L1.6,5.3c-0.4-0.4-1-0.4-1.3,0c-0.4,0.4-0.4,0.9,0,1.3l7.2,6.1c0.1,0.1,0.4,0.2,0.6,0.2s0.4-0.1,0.6-0.2l7.1-6 c0.4-0.4,0.4-0.9,0-1.3c-0.4-0.4-1-0.4-1.3,0L8,10.7z”&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/span&gt; &lt;/a&gt; &lt;div class=“u-accordion-pane u-container-style u-accordion-pane-1” id=“accordion-6327” aria-labelledby=“link-accordion-6327”&gt; &lt;div class=“u-container-layout u-container-layout-1”&gt; &lt;div class=“fr-view u-clearfix u-rich-text u-text”&gt; &lt;p style=“text-align: justify;”&gt;In this quest for making machines think, the neurophysiologist Warren McCullough and mathematician Walter Pitts in 1943 worked together to understand ‘how neurons work’. They modeled a simple neural network using electrical circuits. This was the first step in the invention of an artificial neuron. The model’s simplicity was a major limitation since it only accepted binary inputs, incorporated threshold step activation functions and it did not account weights. In 1949, Donald Hebb proposed when two neurons fire together then the connection between two neurons is strengthened. It was ascertained that this is one of fundamental operations for learning and memory. &nbsp;In the 1950s, Nathanial Rochester, from IBM Research Laboratories, tried to simulate a neural network on IBM 704. He was the chief architect of IBM 701 computers. His group was assigned to pattern recognition, information theory and so on. In 1956, Nathaniel Rochester (IBM Laboratories) along with John McCarthy (Dartmouth College), Claude E.Shannon (Bell Telephone Laboratories) and Marvin L. Minsky (Harvard University) formed a working group and submitted a proposal for a workshop/conference to the Rockefeller Foundation.&lt;/p&gt; &lt;p style=“text-align: justify;”&gt;This workshop took place in July, August 1956 and is recognized as the official birthplace of Artificial Intelligence. Attendees came from diverse backgrounds: electrical engineering, psychology, mathematics and more. The proposal for the workshop is shared below, which gives a broader definition of Artificial Intelligence:&lt;/p&gt; &lt;p id=“isPasted” style=“text-align: justify;”&gt; &lt;span class=“u-custom-font u-font-courier-new”&gt;“An attempt will be made to find how to make machines use language, form abstractions and concepts, solve kinds of problems now reserved for humans, and improve themselves. … For the present purpose the artificial intelligence problem is taken to be that of making a machine behave in ways that would be called intelligent if a human were so behaving.” [9]&lt;/span&gt; &lt;/p&gt; &lt;p style=“text-align: justify;”&gt; &lt;span class=“u-custom-font u-font-courier-new”&gt;“The attendees at the 1956 Dartmouth conference shared a common defining belief, namely that the act of thinking is not something unique either to humans or indeed even biological beings. Rather, they believed that computation is a formally deducible phenomenon which can&lt;/span&gt; &lt;/p&gt; &lt;p style=”text-align: justify;“&gt; &lt;span class=”u-custom-font u-font-courier-new”&gt;be understood in a scientific way and that the best nonhuman instrument for doing so is the digital computer (McCormack, 1979).” [9]&lt;/span&gt; &lt;/p&gt; &lt;p&gt; &lt;img src=“./TheTuringPoint Issue 1_files/lads.png” width=“540” style=“width: 540px;” class=“fr-dib fr-fic”&gt; &lt;/p&gt; &lt;p style=“text-align: center;”&gt; &lt;span style=“font-style: italic;”&gt;Marvin Minsky, Claude Shannon, Ray Solomonoff and other scientists at the Dartmouth Summer Research Project on Artificial Intelligence (Photo: Margaret Minsky) [9]&lt;/span&gt; &lt;/p&gt; &lt;p style=“text-align: center;”&gt; &lt;span style=“font-style: italic;”&gt; &lt;img src=“./TheTuringPoint Issue 1_files/0925_rosenblatt4.jpeg” width=“540” style=“width: 540px;” class=“fr-dib fr-fic”&gt;An image of the perceptron from Rosenblatt’s “The Design of an Intelligent Automaton,” Summer 1958 [8] &lt;/span&gt; &lt;/p&gt; &lt;p style=“text-align: justify;”&gt;It was period when everyone was trying to implement a neural network for a real-time application. Though the traditional Von Neumann architecture dominated the computing scene then, John Von Neumann worked on imitating neural functions by using telegraph relays or vacuum tube in 1957 and was not quite successful. Frank Rosenblatt developed the first perceptron by altering McCulloch-Pitt’s neuron. This perceptron follows the Hebbe’s rule, that is weighting the inputs, and was the building block of formation of neural networks. In July 1958, IBM 704, a 5-ton computer, the size of a room was fed a series of punch cards. The computer taught itself to distinguish the cards marked on the left from the cards marked on the right in 50 trials. This was the first demonstration of perceptron, the neural machine capable of delivering and conceiving the original idea which is still in use. He discussed the perceptron in detail in his 1962 book, Principles of Neurodynamics.&lt;/p&gt; &lt;p id=“isPasted” style=“text-align: justify;”&gt;Around the same time, in 1959, Bernard Widrow and Marcian Hoff (Stanford) developed models called ADALINE and MADALINE. For Stanford’s love of acronyms, the names mean Multiple ADAptive LINear Elements. ADALINE could recognize binary patterns, if it was reading streaming bits from a phone line, it could predict the next one. MADALINE was the first neural network applied to real world problems that eliminates the echoes on phone lines using an adaptive filter. Though the system is as ancient as air traffic control systems, it is still in use.&nbsp;&lt;/p&gt; &lt;p style=“text-align: justify;”&gt;Marvin Minsky and Seymour Papert in 1969, proved that the perceptron was limited in their book Perceptrons. At conferences, Minsky and Rosenblatt publicly debated the viability of perceptron.&nbsp;&lt;/p&gt; &lt;p style=“text-align: justify;”&gt; &lt;span class=“u-custom-font u-font-courier-new”&gt;“Rosenblatt had a vision that he could make computers see and understand language. And Marvin Minsky pointed out that that’s not going to happen, because the functions are just too simple.” [8]&lt;/span&gt; &lt;/p&gt; &lt;p id=“isPasted” style=“text-align: justify;”&gt;The problem with Rosenblatt’s perceptron was it only had one layer and while modern networks have many layers. The real contending problem was that the model provided provision for generating AND, OR, NAND and NOR gates but could not generate the XOR gate. This led to a winter period in neural networks where research progress halted in this direction for a few years.&nbsp;&lt;/p&gt; &lt;p style=“text-align: justify;”&gt;The thawing of this frosty AI winter began in 1982 when Jon Hopfield published what is known today as the HopfieldNet at the NAS(National Academy of Sciences). Around the same time, the field got its much needed competitive boost when Japan announced its 5th &nbsp;generation effort on the research of Neural networks. This helped US research institutes pitch for larger amounts of funding and in 1985 the American Institute of Physicals established &nbsp;the Neural Networks for Computing annual meeting , followed by the Institute of Electrical and Electronics Engineers (IEEE) in 1987.&lt;/p&gt; &lt;p style=“text-align: justify;”&gt;The year 1997 was another milestone moment. A recurrent neural network framework , LSTM was proposed by Schmidhuber and Hochrelter. They introduced the Constant Error Carousel units, to deal with the vanishing gradient problem.&nbsp;&lt;/p&gt; &lt;p style=“text-align: justify;”&gt;In 1998, Yann LeCun published a seminal paper on the Gradient - Based Learning applied to document recognition. &nbsp;Gradient based learning provided the framework to build systems, which cater to learning architectures that can handle high dimensions of input, high degree of variability and the complex non linear relationships between the inputs and outputs.&lt;/p&gt; &lt;p id=“isPasted”&gt;Summaries of some of the important academic &nbsp;papers are discussed below:&nbsp;&lt;/p&gt; &lt;ol style=“margin-top:0;margin-bottom:0;padding-inline-start:48px;”&gt; &lt;li dir=“ltr”&gt; &lt;h6&gt;Attention Is All You Need&lt;/h6&gt; &lt;/li&gt; &lt;/ol&gt; &lt;p&gt;The authors propose a simple network architecture called the Transformer based on attention mechanisms, dispensing the need of using complex recurrent networks or CNNs by relying entirely on self attention. The paper describes the architecture of the model with an encoder decoder structure where each encoder has sublayers, one a multihead self attention mechanism and another a fully connected feed forward network. The decoder is composed of a stack of 6 identical layers where the sublayer performs multi head attention over the output of the encoder stack. The application of attention is done in 3 different ways:&lt;/p&gt; &lt;ul&gt; &lt;li&gt;In the “encoder-decoder” attention layers mimic the typical encoder-decoder attention mechanism in sequence to sequence models.&lt;/li&gt; &lt;li&gt;The encoder contains self attention layers where all the keys,values and queries come from the output of the previous layer in the encoder. All the positions in the encoder can attend to all the positions in the previous layer of the encoder.&lt;/li&gt; &lt;li&gt;The self attention layers in the decoder allow each position in the decoder to attend to all positions in the decoder.&nbsp;&lt;img src=“./TheTuringPoint Issue 1_files/Screenshot2022-03-08161524.png” width=“540” style=“width: 742px;” class=“fr-dib fr-fic”&gt; &lt;/li&gt; &lt;/ul&gt; &lt;p&gt;The paper compares the self attention model to the recurrent and convolutional networks and comes to the conclusion that self attention layers are faster than recurrent layers in terms of computational complexity. The complexity of a separable convolution is equal to the combination of a self attention layer and a point wise feed forward layer i.e.&nbsp;the approach taken in the paper.&nbsp;&lt;/p&gt; &lt;p&gt;&nbsp;This paper achieves a new state of the art when it comes to translational tasks.&nbsp;&lt;/p&gt; &lt;p&gt;The code is available at &lt;a href=“https://github.com/tensorflow/tensor2tensor”&gt;https://github.com/tensorflow/tensor2tensor&lt;/a&gt;. &lt;/p&gt; &lt;p&gt; &lt;br&gt; &lt;/p&gt; &lt;h6&gt;&nbsp;2. Bandwidth Prediction and Congestion Control for ABR Traffic Based on Neural Networks&lt;/h6&gt; &lt;p&gt;The paper uses Back propagation Neural Networks for congestion control in ATM networks for predicting the bursty available bandwidth for ABR traffic effectively and to force the queue level in the Buffer to a desired region. The fairness of this model is achieved through the fair algorithm.&nbsp;&lt;/p&gt; &lt;p&gt; &lt;br&gt; &lt;/p&gt; &lt;h6&gt;&nbsp;3. Using Artificial Neural Network Modeling in Forecasting Revenue: Case Study in National Insurance Company/Iraq&lt;/h6&gt; &lt;p&gt;The paper aims to forecast the insurance premiums revenue of the National Insurance Company between the years 2012 to 2053 using Artificial Neural Network based on the annual data available for the insurance premiums revenue between 1970 to 2011. The authors used a Neural network fitting tool to help select the data, create and train a network and evaluate its performance.The approach is used by taking the annual investment income of National Insurance Company as an independent (Input) variable. The experiments show that the best architecture for fitting a neural network as one input vector, five hidden layers and the output is one vector (1-5-1), the ratio of increasing the insurance premiums revenue is approximately 120% for the period between 2012 and 2053.&lt;/p&gt; &lt;p&gt; &lt;br&gt; &lt;/p&gt; &lt;h6&gt;&nbsp;4. Neural Network Approach to Forecast the State of the Internet of Things Elements&lt;/h6&gt; &lt;p&gt;The aim of this paper is to use neural networks to predict the states of the elements present in an IOT based architecture. The proposed model/ architecture of the neural networks is a combination of multilayered perpetron and probabilistic neural networks. Authors analyze the performance of this model based on accuracy and efficiency of the model. The combined ANN network helps realize a forecasting and monitoring model for the Internet of Things. This results in reduction of IOT administration costs and emergency resolutions.&nbsp;&lt;/p&gt; &lt;p&gt; &lt;br&gt; &lt;/p&gt; &lt;h6&gt;&nbsp;5. AnyNets: Adaptive Deep Neural Networks for medical data with missing values&lt;/h6&gt; &lt;p&gt;The paper introduces a novel class of adaptive deep neural networks called AnyNets which is designed to remove the need for imputation for missing data for patient records in medicine. This is because a large number of patient records contain incomplete information and measurements which are then filled up using default values which causes bias and limits generalization. The paper goes on to process various kinds of input values through the medical datasets under both supervised and unsupervised learning and achieve better results than the electronic medical records or registry.&lt;/p&gt; &lt;p&gt; &lt;br&gt; &lt;/p&gt; &lt;h6&gt;References:&lt;/h6&gt; &lt;ol&gt; &lt;li&gt;https://home.csulb.edu/~cwallis/artificialn/History.htm#:~:text=One%20of%20the%20difficulties%20with,incorporate%20weighting%20the%20different%20inputs.&lt;/li&gt; &lt;li&gt;https://cs.stanford.edu/people/eroberts/courses/soco/projects/neural-networks/History/history1.html&lt;/li&gt; &lt;li&gt;https://medium.com/analytics-vidhya/brief-history-of-neural-networks-44c2bf72eec&lt;/li&gt; &lt;li&gt;https://towardsdatascience.com/a-concise-history-of-neural-networks-2070655d3fec&lt;/li&gt; &lt;li&gt;https://blogs.umass.edu/comphon/2017/06/15/did-frank-rosenblatt-invent-deep-learning-in-1962/&lt;/li&gt; &lt;li&gt;https://home.csulb.edu/~cwallis/artificialn/History.htm#:~:text=One%20of%20the%20difficulties%20with,incorporate%20weighting%20the%20different%20inputs.&lt;/li&gt; &lt;li&gt;https://cs.stanford.edu/people/eroberts/courses/soco/projects/neural-networks/History/history1.html&lt;/li&gt; &lt;li&gt;https://news.cornell.edu/stories/2019/09/professors-perceptron-paved-way-ai-60-years-too-soon&lt;/li&gt; &lt;li&gt;https://www.cantorsparadise.com/the-birthplace-of-ai-9ab7d4e5fb00&lt;/li&gt; &lt;li&gt;https://medium.com/analytics-vidhya/understanding-basics-of-deep-learning-by-solving-xor-problem-cb3ff6a18a06&lt;/li&gt; &lt;li&gt;https://www.forbes.com/sites/gilpress/2017/08/27/artificial-intelligence-ai-defined/?sh=55526a987661&lt;/li&gt; &lt;li&gt;https://developer.ibm.com/articles/cc-cognitive-neural-networks-deep-dive/&lt;/li&gt; &lt;/ol&gt; &lt;/div&gt; &lt;/div&gt; &lt;/div&gt; &lt;/div&gt; &lt;/div&gt; &lt;/div&gt; &lt;/section&gt;</p>
+<p>&lt;footer class=“u-align-center u-clearfix u-footer u-grey-80 u-footer” id=“sec-6a1c”&gt;&lt;div class=“u-clearfix u-sheet u-sheet-1”&gt; &lt;p class=“u-small-text u-text u-text-variant u-text-1”&gt;CRT-AI newsletter March, 2022&lt;br&gt;by&lt;br&gt; &lt;a href=“https://crtai.news/team.html” data-page-id=“146178837” class=“u-active-none u-border-none u-btn u-button-link u-button-style u-hover-none u-none u-text-palette-1-base u-btn-1”&gt;Anaïs Murat&lt;/a&gt; &lt;br&gt; &lt;a href=“https://crtai.news/team.html” data-page-id=“146178837” class=“u-active-none u-border-none u-btn u-button-link u-button-style u-hover-none u-none u-text-palette-1-base u-btn-2”&gt;Cathy Roche&lt;/a&gt; &lt;br&gt; &lt;a href=“https://crtai.news/team.html” data-page-id=“146178837” class=“u-active-none u-border-none u-btn u-button-link u-button-style u-hover-none u-none u-text-palette-1-base u-btn-3”&gt;Janet Choi&lt;/a&gt; &lt;br&gt; &lt;a href=“https://crtai.news/team.html” data-page-id=“146178837” class=“u-active-none u-border-none u-btn u-button-link u-button-style u-hover-none u-none u-text-palette-1-base u-btn-4”&gt;Lavanya Vinod Pampana&lt;/a&gt; &lt;br&gt; &lt;a href=“https://crtai.news/team.html” data-page-id=“146178837” class=“u-active-none u-border-none u-btn u-button-link u-button-style u-hover-none u-none u-text-palette-1-base u-btn-5”&gt;Sharmi Dev Gupta&lt;/a&gt; &lt;br&gt; &lt;a href=“https://crtai.news/team.html” data-page-id=“146178837” class=“u-active-none u-border-none u-btn u-button-link u-button-style u-hover-none u-none u-text-palette-1-base u-btn-6”&gt;Yanlin Mi&lt;/a&gt; &lt;br&gt; &lt;a href=“https://crtai.news/team.html” data-page-id=“146178837” class=“u-active-none u-border-none u-btn u-button-link u-button-style u-hover-none u-none u-text-palette-1-base u-btn-7”&gt;Naa Korkoi Addo&lt;/a&gt; &lt;br&gt; &lt;a href=“https://crtai.news/team.html” data-page-id=“146178837” class=“u-active-none u-border-none u-btn u-button-link u-button-style u-hover-none u-none u-text-palette-1-base u-btn-8”&gt;Kislay Raj&lt;/a&gt; &lt;br&gt; &lt;/p&gt; &lt;/div&gt;&lt;/footer&gt; &lt;section class=“u-backlink u-clearfix u-grey-80”&gt; &lt;a class=“u-link” href=“https://nicepage.com/css-templates” target=“_blank”&gt; &lt;span&gt;CSS Templates&lt;/span&gt; &lt;/a&gt; &lt;p class=“u-text”&gt; &lt;span&gt;created with&lt;/span&gt; &lt;/p&gt; &lt;a class=“u-link” href=“https://nicepage.com/static-site-generator” target=“_blank”&gt; &lt;span&gt;Static Site Generator&lt;/span&gt; &lt;/a&gt;. &lt;/section&gt;</p>
+<p>&lt;style&gt;.u-disable-duration * {transition-duration: 0s !important;}&lt;/style&gt;&lt;/body&gt;&lt;/html&gt;&lt;/div&gt;</p>
+
+
+
+</div></main> <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
+window.document.addEventListener("DOMContentLoaded", function (event) {
+  const toggleBodyColorMode = (bsSheetEl) => {
+    const mode = bsSheetEl.getAttribute("data-mode");
+    const bodyEl = window.document.querySelector("body");
+    if (mode === "dark") {
+      bodyEl.classList.add("quarto-dark");
+      bodyEl.classList.remove("quarto-light");
+    } else {
+      bodyEl.classList.add("quarto-light");
+      bodyEl.classList.remove("quarto-dark");
+    }
+  }
+  const toggleBodyColorPrimary = () => {
+    const bsSheetEl = window.document.querySelector("link#quarto-bootstrap");
+    if (bsSheetEl) {
+      toggleBodyColorMode(bsSheetEl);
+    }
+  }
+  toggleBodyColorPrimary();  
+  const icon = "";
+  const anchorJS = new window.AnchorJS();
+  anchorJS.options = {
+    placement: 'right',
+    icon: icon
+  };
+  anchorJS.add('.anchored');
+  const isCodeAnnotation = (el) => {
+    for (const clz of el.classList) {
+      if (clz.startsWith('code-annotation-')) {                     
+        return true;
+      }
+    }
+    return false;
+  }
+  const clipboard = new window.ClipboardJS('.code-copy-button', {
+    text: function(trigger) {
+      const codeEl = trigger.previousElementSibling.cloneNode(true);
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+    }
+  });
+  clipboard.on('success', function(e) {
+    // button target
+    const button = e.trigger;
+    // don't keep focus
+    button.blur();
+    // flash "checked"
+    button.classList.add('code-copy-button-checked');
+    var currentTitle = button.getAttribute("title");
+    button.setAttribute("title", "Copied!");
+    let tooltip;
+    if (window.bootstrap) {
+      button.setAttribute("data-bs-toggle", "tooltip");
+      button.setAttribute("data-bs-placement", "left");
+      button.setAttribute("data-bs-title", "Copied!");
+      tooltip = new bootstrap.Tooltip(button, 
+        { trigger: "manual", 
+          customClass: "code-copy-button-tooltip",
+          offset: [0, -8]});
+      tooltip.show();    
+    }
+    setTimeout(function() {
+      if (tooltip) {
+        tooltip.hide();
+        button.removeAttribute("data-bs-title");
+        button.removeAttribute("data-bs-toggle");
+        button.removeAttribute("data-bs-placement");
+      }
+      button.setAttribute("title", currentTitle);
+      button.classList.remove('code-copy-button-checked');
+    }, 1000);
+    // clear code selection
+    e.clearSelection();
+  });
+    var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+    var mailtoRegex = new RegExp(/^mailto:/);
+      var filterRegex = new RegExp('/' + window.location.host + '/');
+    var isInternal = (href) => {
+        return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+    }
+    // Inspect non-navigation links and adorn them if external
+ 	var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool)');
+    for (var i=0; i<links.length; i++) {
+      const link = links[i];
+      if (!isInternal(link.href)) {
+        // undo the damage that might have been done by quarto-nav.js in the case of
+        // links that we want to consider external
+        if (link.dataset.originalHref !== undefined) {
+          link.href = link.dataset.originalHref;
+        }
+      }
+    }
+  function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+    const config = {
+      allowHTML: true,
+      maxWidth: 500,
+      delay: 100,
+      arrow: false,
+      appendTo: function(el) {
+          return el.parentElement;
+      },
+      interactive: true,
+      interactiveBorder: 10,
+      theme: 'quarto',
+      placement: 'bottom-start',
+    };
+    if (contentFn) {
+      config.content = contentFn;
+    }
+    if (onTriggerFn) {
+      config.onTrigger = onTriggerFn;
+    }
+    if (onUntriggerFn) {
+      config.onUntrigger = onUntriggerFn;
+    }
+    window.tippy(el, config); 
+  }
+  const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+  for (var i=0; i<noterefs.length; i++) {
+    const ref = noterefs[i];
+    tippyHover(ref, function() {
+      // use id or data attribute instead here
+      let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+      try { href = new URL(href).hash; } catch {}
+      const id = href.replace(/^#\/?/, "");
+      const note = window.document.getElementById(id);
+      if (note) {
+        return note.innerHTML;
+      } else {
+        return "";
+      }
+    });
+  }
+  const xrefs = window.document.querySelectorAll('a.quarto-xref');
+  const processXRef = (id, note) => {
+    // Strip column container classes
+    const stripColumnClz = (el) => {
+      el.classList.remove("page-full", "page-columns");
+      if (el.children) {
+        for (const child of el.children) {
+          stripColumnClz(child);
+        }
+      }
+    }
+    stripColumnClz(note)
+    if (id === null || id.startsWith('sec-')) {
+      // Special case sections, only their first couple elements
+      const container = document.createElement("div");
+      if (note.children && note.children.length > 2) {
+        container.appendChild(note.children[0].cloneNode(true));
+        for (let i = 1; i < note.children.length; i++) {
+          const child = note.children[i];
+          if (child.tagName === "P" && child.innerText === "") {
+            continue;
+          } else {
+            container.appendChild(child.cloneNode(true));
+            break;
+          }
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(container);
+        }
+        return container.innerHTML
+      } else {
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        return note.innerHTML;
+      }
+    } else {
+      // Remove any anchor links if they are present
+      const anchorLink = note.querySelector('a.anchorjs-link');
+      if (anchorLink) {
+        anchorLink.remove();
+      }
+      if (window.Quarto?.typesetMath) {
+        window.Quarto.typesetMath(note);
+      }
+      // TODO in 1.5, we should make sure this works without a callout special case
+      if (note.classList.contains("callout")) {
+        return note.outerHTML;
+      } else {
+        return note.innerHTML;
+      }
+    }
+  }
+  for (var i=0; i<xrefs.length; i++) {
+    const xref = xrefs[i];
+    tippyHover(xref, undefined, function(instance) {
+      instance.disable();
+      let url = xref.getAttribute('href');
+      let hash = undefined; 
+      if (url.startsWith('#')) {
+        hash = url;
+      } else {
+        try { hash = new URL(url).hash; } catch {}
+      }
+      if (hash) {
+        const id = hash.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note !== null) {
+          try {
+            const html = processXRef(id, note.cloneNode(true));
+            instance.setContent(html);
+          } finally {
+            instance.enable();
+            instance.show();
+          }
+        } else {
+          // See if we can fetch this
+          fetch(url.split('#')[0])
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.getElementById(id);
+            if (note !== null) {
+              const html = processXRef(id, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      } else {
+        // See if we can fetch a full url (with no hash to target)
+        // This is a special case and we should probably do some content thinning / targeting
+        fetch(url)
+        .then(res => res.text())
+        .then(html => {
+          const parser = new DOMParser();
+          const htmlDoc = parser.parseFromString(html, "text/html");
+          const note = htmlDoc.querySelector('main.content');
+          if (note !== null) {
+            // This should only happen for chapter cross references
+            // (since there is no id in the URL)
+            // remove the first header
+            if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+              note.children[0].remove();
+            }
+            const html = processXRef(null, note);
+            instance.setContent(html);
+          } 
+        }).finally(() => {
+          instance.enable();
+          instance.show();
+        });
+      }
+    }, function(instance) {
+    });
+  }
+      let selectedAnnoteEl;
+      const selectorForAnnotation = ( cell, annotation) => {
+        let cellAttr = 'data-code-cell="' + cell + '"';
+        let lineAttr = 'data-code-annotation="' +  annotation + '"';
+        const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+        return selector;
+      }
+      const selectCodeLines = (annoteEl) => {
+        const doc = window.document;
+        const targetCell = annoteEl.getAttribute("data-target-cell");
+        const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+        const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+        const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+        const lineIds = lines.map((line) => {
+          return targetCell + "-" + line;
+        })
+        let top = null;
+        let height = null;
+        let parent = null;
+        if (lineIds.length > 0) {
+            //compute the position of the single el (top and bottom and make a div)
+            const el = window.document.getElementById(lineIds[0]);
+            top = el.offsetTop;
+            height = el.offsetHeight;
+            parent = el.parentElement.parentElement;
+          if (lineIds.length > 1) {
+            const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+            const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+            height = bottom - top;
+          }
+          if (top !== null && height !== null && parent !== null) {
+            // cook up a div (if necessary) and position it 
+            let div = window.document.getElementById("code-annotation-line-highlight");
+            if (div === null) {
+              div = window.document.createElement("div");
+              div.setAttribute("id", "code-annotation-line-highlight");
+              div.style.position = 'absolute';
+              parent.appendChild(div);
+            }
+            div.style.top = top - 2 + "px";
+            div.style.height = height + 4 + "px";
+            div.style.left = 0;
+            let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+            if (gutterDiv === null) {
+              gutterDiv = window.document.createElement("div");
+              gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+              gutterDiv.style.position = 'absolute';
+              const codeCell = window.document.getElementById(targetCell);
+              const gutter = codeCell.querySelector('.code-annotation-gutter');
+              gutter.appendChild(gutterDiv);
+            }
+            gutterDiv.style.top = top - 2 + "px";
+            gutterDiv.style.height = height + 4 + "px";
+          }
+          selectedAnnoteEl = annoteEl;
+        }
+      };
+      const unselectCodeLines = () => {
+        const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+        elementsIds.forEach((elId) => {
+          const div = window.document.getElementById(elId);
+          if (div) {
+            div.remove();
+          }
+        });
+        selectedAnnoteEl = undefined;
+      };
+        // Handle positioning of the toggle
+    window.addEventListener(
+      "resize",
+      throttle(() => {
+        elRect = undefined;
+        if (selectedAnnoteEl) {
+          selectCodeLines(selectedAnnoteEl);
+        }
+      }, 10)
+    );
+    function throttle(fn, ms) {
+    let throttle = false;
+    let timer;
+      return (...args) => {
+        if(!throttle) { // first call gets through
+            fn.apply(this, args);
+            throttle = true;
+        } else { // all the others get throttled
+            if(timer) clearTimeout(timer); // cancel #2
+            timer = setTimeout(() => {
+              fn.apply(this, args);
+              timer = throttle = false;
+            }, ms);
+        }
+      };
+    }
+      // Attach click handler to the DT
+      const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+      for (const annoteDlNode of annoteDls) {
+        annoteDlNode.addEventListener('click', (event) => {
+          const clickedEl = event.target;
+          if (clickedEl !== selectedAnnoteEl) {
+            unselectCodeLines();
+            const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+            if (activeEl) {
+              activeEl.classList.remove('code-annotation-active');
+            }
+            selectCodeLines(clickedEl);
+            clickedEl.classList.add('code-annotation-active');
+          } else {
+            // Unselect the line
+            unselectCodeLines();
+            clickedEl.classList.remove('code-annotation-active');
+          }
+        });
+      }
+  const findCites = (el) => {
+    const parentEl = el.parentElement;
+    if (parentEl) {
+      const cites = parentEl.dataset.cites;
+      if (cites) {
+        return {
+          el,
+          cites: cites.split(' ')
+        };
+      } else {
+        return findCites(el.parentElement)
+      }
+    } else {
+      return undefined;
+    }
+  };
+  var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+  for (var i=0; i<bibliorefs.length; i++) {
+    const ref = bibliorefs[i];
+    const citeInfo = findCites(ref);
+    if (citeInfo) {
+      tippyHover(citeInfo.el, function() {
+        var popup = window.document.createElement('div');
+        citeInfo.cites.forEach(function(cite) {
+          var citeDiv = window.document.createElement('div');
+          citeDiv.classList.add('hanging-indent');
+          citeDiv.classList.add('csl-entry');
+          var biblioDiv = window.document.getElementById('ref-' + cite);
+          if (biblioDiv) {
+            citeDiv.innerHTML = biblioDiv.innerHTML;
+          }
+          popup.appendChild(citeDiv);
+        });
+        return popup.innerHTML;
+      });
+    }
+  }
+});
+</script>
+</div> <!-- /content -->
+
+
+
+
+</body></html>
