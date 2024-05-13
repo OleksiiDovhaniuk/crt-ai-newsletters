@@ -1,0 +1,34 @@
+---
+title: "It's Time To Talk Generative AI"
+subtitle: "Issue #3"
+author: 
+  - name: "Anaïs Murat"
+    url: "https://www.crt-ai.ie/team/anais-claire-murat"
+  - name: "Mikhail Kudriavtsev"
+    url: "https://www.crt-ai.ie/team/mikhail-kudriavtsev"
+  - name: "Sharmi Dev Gupta"
+    url: "https://www.crt-ai.ie/team/sharmi-dev-gupta"
+  - name: "Lavanya Vinod Pampana"
+    url: "https://www.crt-ai.ie/team/lavanya-pampana"
+  - name: "Cathy Roche"
+    url: "https://www.crt-ai.ie/team/cathy-roche"
+  - name: "Kislay Raj"
+    url: "https://www.linkedin.com/in/kislayraj95/?originalSubdomain=uk"
+  - name: "Naa Korkoi Addo"
+    url: "https://www.crt-ai.ie/team/naa-korkoi"
+  - name: "Fitria Wulandari Ramlan"
+    url: "https://www.crt-ai.ie/team/fitria-wulandri-ramlan/"
+  - name: "Yanlin Mi"
+    url: "https://www.crt-ai.ie/team/yanlin-mi"
+  - name: "Kevlyn Kadamala"
+    url: "https://www.crt-ai.ie/team/kevlyn-kadamala/"
+  - name: "Oleksii Dovhaniuk"
+    url: "https://www.linkedin.com/in/oleksii-dovhaniuk-ab0580283"
+  - name: "Janet Choi"
+    url: "https://www.crt-ai.ie/team/janet-choi"
+date: "2023-12-24"
+image: "thumbnail.jpg"
+categories: [news]
+---
+
+![Credit: Image created with Copilot by request "Give me image which the best displays Generative AI"](issue03-img-01.jpg "CRT AI Image of Generative AI"){#issue3-img-generative-ai fig-alt="CRT AI Image of Generative AI"}

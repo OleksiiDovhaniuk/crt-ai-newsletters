@@ -13,5 +13,17 @@
   },
   "posts/test-html/index.qmd": {
     "index.html": "c2dac808"
+  },
+  "posts/issue02/index.qmd": {
+    "index.html": "7f56eb0b"
+  },
+  "posts/issue01/index.qmd": {
+    "index.html": "b1eb15fd"
+  },
+  "posts/issue03/index.qmd": {
+    "index.html": "c141426d"
+  },
+  "posts/issue04/index.qmd": {
+    "index.html": "07667633"
   }
 }

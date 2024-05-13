@@ -2,8 +2,10 @@
   {
     "listing": "/index.html",
     "items": [
-      "/posts/post-with-code/index.html",
-      "/posts/welcome/index.html"
+      "/posts/issue04/index.html",
+      "/posts/issue03/index.html",
+      "/posts/issue02/index.html",
+      "/posts/issue01/index.html"
     ]
   }
 ]

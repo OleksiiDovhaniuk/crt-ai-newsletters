@@ -1,0 +1,28 @@
+---
+title: "It's Time To Talk About People Behind PhD"
+subtitle: "Issue #4"
+author: 
+  - name: "Josh McGiff"
+    url: "https://www.linkedin.com/in/joshmcgiff"
+  - name: "Anaïs Murat"
+    url: "https://www.crt-ai.ie/team/anais-claire-murat"
+  - name: "Cathy Roche"
+    url: "https://www.crt-ai.ie/team/cathy-roche"
+  - name: "Janet Choi"
+    url: "https://www.crt-ai.ie/team/janet-choi"
+  - name: "Lavanya Vinod Pampana"
+    url: "https://www.crt-ai.ie/team/lavanya-pampana"
+  - name: "Sharmi Dev Gupta"
+    url: "https://www.crt-ai.ie/team/sharmi-dev-gupta"
+  - name: "Yanlin Mi"
+    url: "https://www.crt-ai.ie/team/yanlin-mi"
+  - name: "Naa Korkoi Addo"
+    url: "https://www.crt-ai.ie/team/naa-korkoi"
+  - name: "Kislay Raj"
+    url: "https://www.linkedin.com/in/kislayraj95/?originalSubdomain=uk"
+date: "2024-05-17"
+image: "thumbnail.jpg"
+categories: [news]
+---
+
+![Credit: Image created with Copilot by request "Give me image which the best displays PhD researchers working in the field of AI engineering"](issue04-image-01.jpg "CRT AI Image of PhD AI Engineering"){#issue4-img-phd-ai-engineering fig-alt="CRT AI Image of PhD AI Engineering"}

@@ -1,19 +1,18 @@
 ---
 title: "About"
-image: profile.jpg
+image: profile.png
 about:
-  template: jolla
+  template: marquee
   links:
     - icon: twitter
       text: Twitter
-      href: https://twitter.com
+      href: https://twitter.com/crt_ai
     - icon: linkedin
       text: LinkedIn
-      href: https://linkedin.com
-    - icon: github
-      text: Github
-      href: https://github.com
-
+      href: https://www.linkedin.com/company/crtai
+    - icon: youtube
+      text: Youtube
+      href: https://www.youtube.com/@crt-aimedia2559
 ---
 
-About this blog
+The SFI Centre for Research Training in Artificial Intelligence aims to create an internationally connected and globally recognised centre of excellence for the training of postgraduate students and the up-skilling of industry-based staff in key technical topics in artificial intelligence and data analytics.

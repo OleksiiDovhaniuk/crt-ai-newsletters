@@ -5,11 +5,18 @@ website:
   title: "CRT in AI Newsletter"
   navbar:
     right:
-      - about.qmd
+      - text: About
+        href: https://www.crt-ai.ie/
+        target: https://www.crt-ai.ie/
       - icon: twitter
         href: https://twitter.com/crt_ai
+        target: https://twitter.com/crt_ai
+      - icon: linkedin
+        href: https://www.linkedin.com/company/crtai
+        target: https://www.linkedin.com/company/crtai
       - icon: youtube
         href: https://www.youtube.com/@crt-aimedia2559
+        target: https://www.youtube.com/@crt-aimedia2559
       - icon: envelope-fill
         href: mailto:janetchoi@ucc.ie
 format:

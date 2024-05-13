@@ -1,0 +1,30 @@
+---
+title: "It's Time To Talk About Bias"
+subtitle: "Issue #2"
+author: 
+  - name: "Anaïs Murat"
+    url: "https://www.crt-ai.ie/team/anais-claire-murat"
+  - name: "Cathy Roche"
+    url: "https://www.crt-ai.ie/team/cathy-roche"
+  - name: "Janet Choi"
+    url: "https://www.crt-ai.ie/team/janet-choi"
+  - name: "Lavanya Vinod Pampana"
+    url: "https://www.crt-ai.ie/team/lavanya-pampana"
+  - name: "Sharmi Dev Gupta"
+    url: "https://www.crt-ai.ie/team/sharmi-dev-gupta"
+  - name: "Yanlin Mi"
+    url: "https://www.crt-ai.ie/team/yanlin-mi"
+  - name: "Naa Korkoi Addo"
+    url: "https://www.crt-ai.ie/team/naa-korkoi"
+  - name: "Kislay Raj"
+    url: "https://www.linkedin.com/in/kislayraj95/?originalSubdomain=uk"
+date: "2022-08-15"
+image: "thumbnail.jpg"
+categories: [news]
+---
+
+![](ai-bias.jpg "CRT AI Image of AI Bias"){#issue2-img-ai-bias fig-alt="CRT AI Image of AI Bias"}
+
+### Welcoming words
+
+Welcome to the second issue of the CRT-AI Newsletter "The Turing Point". This time we talk about bias in AI. Even though the topic has received quite a lot of attention in recent years, the level of awareness remains low. Knowing what tools a scientist can use to spot, evaluate and mitigate any form of bias is of great importance. For this issue, our team prepared a list of interesting articles, tools and datasets that can help you on your PhD ​​​​​journey.

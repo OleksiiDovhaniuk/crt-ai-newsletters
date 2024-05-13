@@ -1,0 +1,38 @@
+---
+title: "The Turing Point"
+subtitle: "Issue #1"
+author: 
+  - name: "Anaïs Murat"
+    url: "https://www.crt-ai.ie/team/anais-claire-murat"
+  - name: "Cathy Roche"
+    url: "https://www.crt-ai.ie/team/cathy-roche"
+  - name: "Janet Choi"
+    url: "https://www.crt-ai.ie/team/janet-choi"
+  - name: "Lavanya Vinod Pampana"
+    url: "https://www.crt-ai.ie/team/lavanya-pampana"
+  - name: "Sharmi Dev Gupta"
+    url: "https://www.crt-ai.ie/team/sharmi-dev-gupta"
+  - name: "Yanlin Mi"
+    url: "https://www.crt-ai.ie/team/yanlin-mi"
+  - name: "Naa Korkoi Addo"
+    url: "https://www.crt-ai.ie/team/naa-korkoi"
+  - name: "Kislay Raj"
+    url: "https://www.linkedin.com/in/kislayraj95/?originalSubdomain=uk"
+date: "2022-03-15"
+categories: [news, code, analysis, history]
+image: "thumbnail.jpg"
+---
+
+![Professor O'Sullivan ​Director of The Centre for Research Training in Artificial Intelligence](barryosullivan.jpg "Professor O'Sullivan ​Director of CRT AI"){#issue1-img-barryosullivan fig-alt="Professor O'Sullivan ​Director of CRT AI"}
+
+### Director's Message 
+
+Welcome to the first edition of the CRT-AI Newsletter. It is our pleasure to announce, this is The Turing Point. \
+Our goal is to keep you informed of our latest developments and news and provide you with valuable information during your PhD journey. \
+CRT-AI's newsletter committee is comprised of students across cohorts one through three. There are six committee members, and the advisory committee is composed of the six Co-Directors of the CRT-AI.
+
+Whether people realize it or not, AI is now part of their daily lives, not a piece of fiction. A number of industries have become prominent for adopting artificial intelligence, including high tech and telecommunications, financial services, and healthcare. \
+The growth of AI Corporate Investment worldwide, due to Covid-19 Pandemic, has accelerated in areas such as biotech, and the biggest increase has been in healthcare and pharma, and it appears that AI hiring, investment, and adoption have increased globally.\
+The training of PhDs in this area is necessary to better meet the needs of the sector, improve efficiencies, and improve the future lives of millions of people. \
+Last but not least, spring is approaching, and we all will be able to get up and moving again with plenty of fresh air around after a long period of hibernation. As you pursue your PhD, I wish you good health, happiness, and success. \
+Please contact the newsletter committee through the CRT-AI Slack workspace if you would like to donate your time. 
