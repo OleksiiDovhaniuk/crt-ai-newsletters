@@ -1,6 +1,6 @@
 ---
 title: "The Turing Point"
-subtitle: "Issue #1"
+subtitle: "THE TURING P01NT | ISSUE #1"
 author: 
   - name: "Anaïs Murat"
     url: "https://www.crt-ai.ie/team/anais-claire-murat"
@@ -19,7 +19,7 @@ author:
   - name: "Kislay Raj"
     url: "https://www.linkedin.com/in/kislayraj95/?originalSubdomain=uk"
 date: "2022-03-15"
-categories: [news, code, analysis, history]
+categories: [Podcast, Dictionary, History]
 image: "thumbnail.jpg"
 ---
 
@@ -71,7 +71,7 @@ Fancy a collaboration with your CRT-AI mates? You have created that amazing tool
 \
 The CRT-AI’s Padlet now provides you with a nice place to advertise your work and find your AI soulmate \<3. Whether you are looking for a collaboration or have a nice database to share, you can publish a post with everything you want people to know. If it isn’t your case yet, remember to save this Padlet to your favorites; you could be surprised by how inspiring this mood board will soon be! Here we welcome every single one of our members and want everyone to feel comfortable. You can therefore post by yourself or by filling in our special form!
 
-[Find your buddy ](https://padlet.com/murata3/kehzurdumkmdsqqr)[or fill the form and we will do the job](https://forms.gle/VzWZx7dLm6Scbxv68)
+[Find your buddy](https://padlet.com/murata3/kehzurdumkmdsqqr)[or fill the form and we will do the job](https://forms.gle/VzWZx7dLm6Scbxv68)
 
 ##### featured article
 
@@ -156,7 +156,7 @@ Also known as ethics shopping or ethics theatre, ethics washing refers to when a
 
 # LOL My Thesis
 
-Tired of that too serious life? Take a step back and tell us about that laughable work you’ve been exhausting yourself on! Here it can be about your thesis, a project you have been working on, your Master’s or Bachelor’s dissertation, etc. It does not matter. All we want you to do is to provide us with a new title that highlights the absurdity of your work.[ https://lolmythesis.com/](https://lolmythesis.com/) is a rich bank of hilarious examples, and we might have stolen their idea. Yet, we know that misery does not only affect others, and now we want to laugh at our CRT-AI community. Come up with your best line and submit it here! The best ones will receive a chocolate bar and be featured in our next issue!
+Tired of that too serious life? Take a step back and tell us about that laughable work you’ve been exhausting yourself on! Here it can be about your thesis, a project you have been working on, your Master’s or Bachelor’s dissertation, etc. It does not matter. All we want you to do is to provide us with a new title that highlights the absurdity of your work.<https://lolmythesis.com/> is a rich bank of hilarious examples, and we might have stolen their idea. Yet, we know that misery does not only affect others, and now we want to laugh at our CRT-AI community. Come up with your best line and submit it here! The best ones will receive a chocolate bar and be featured in our next issue!
 
 [Send your entry](https://forms.gle/ZUwfj4qaGne9Z7ZM7)
 
@@ -240,29 +240,16 @@ The aim of this paper is to use neural networks to predict the states of the ele
 
 The paper introduces a novel class of adaptive deep neural networks called AnyNets which is designed to remove the need for imputation for missing data for patient records in medicine. This is because a large number of patient records contain incomplete information and measurements which are then filled up using default values which causes bias and limits generalization. The paper goes on to process various kinds of input values through the medical datasets under both supervised and unsupervised learning and achieve better results than the electronic medical records or registry.
 
-###### References:
+## References
 
-1.  https://home.csulb.edu/\~cwallis/artificialn/History.htm#:\~:text=One%20of%20the%20difficulties%20with,incorporate%20weighting%20the%20different%20inputs.
-
-2.  https://cs.stanford.edu/people/eroberts/courses/soco/projects/neural-networks/History/history1.html
-
-3.  https://medium.com/analytics-vidhya/brief-history-of-neural-networks-44c2bf72eec
-
-4.  https://towardsdatascience.com/a-concise-history-of-neural-networks-2070655d3fec
-
-5.  https://blogs.umass.edu/comphon/2017/06/15/did-frank-rosenblatt-invent-deep-learning-in-1962/
-
-6.  https://home.csulb.edu/\~cwallis/artificialn/History.htm#:\~:text=One%20of%20the%20difficulties%20with,incorporate%20weighting%20the%20different%20inputs.
-
-7.  https://cs.stanford.edu/people/eroberts/courses/soco/projects/neural-networks/History/history1.html
-
-8.  https://news.cornell.edu/stories/2019/09/professors-perceptron-paved-way-ai-60-years-too-soon
-
-9.  https://www.cantorsparadise.com/the-birthplace-of-ai-9ab7d4e5fb00
-
-10. https://medium.com/analytics-vidhya/understanding-basics-of-deep-learning-by-solving-xor-problem-cb3ff6a18a06
-
-11. https://www.forbes.com/sites/gilpress/2017/08/27/artificial-intelligence-ai-defined/?sh=55526a987661
-
-12. https://developer.ibm.com/articles/cc-cognitive-neural-networks-deep-dive/[\
+1.  [History of the Perceptron](https://home.csulb.edu/~cwallis/artificialn/History.htm#:~:text=One%20of%20the%20difficulties%20with,incorporate%20weighting%20the%20different%20inputs. "Redirect to Outside Post")
+2.  [Neural Networks History: The 1940's to the 1970's](https://cs.stanford.edu/people/eroberts/courses/soco/projects/neural-networks/History/history1.html "Redirect to Outside Post")
+3.  [Brief History of Neural Networks](https://medium.com/analytics-vidhya/brief-history-of-neural-networks-44c2bf72eec "Redirect to Outside Post")
+4.  [A Concise History of Neural Networks](https://towardsdatascience.com/a-concise-history-of-neural-networks-2070655d3fec "Redirect to Outside Post")
+5.  [Did Frank Rosenblatt invent deep learning in 1962?](https://blogs.umass.edu/comphon/2017/06/15/did-frank-rosenblatt-invent-deep-learning-in-1962/ "Redirect to Outside Post")
+6.  [Professor’s perceptron paved the way for AI – 60 years too soon](https://news.cornell.edu/stories/2019/09/professors-perceptron-paved-way-ai-60-years-too-soon "Redirect to Outside Post")
+7.  [The Birthplace of AI](https://www.cantorsparadise.com/the-birthplace-of-ai-9ab7d4e5fb00 "Redirect to Outside Post")
+8.  [Understanding Basics of Deep Learning by solving XOR problem](https://medium.com/analytics-vidhya/understanding-basics-of-deep-learning-by-solving-xor-problem-cb3ff6a18a06 "Redirect to Outside Post")
+9.  [Artificial Intelligence (AI) Defined](https://www.forbes.com/sites/gilpress/2017/08/27/artificial-intelligence-ai-defined/?sh=55526a987661 "Redirect to Outside Post")
+10. [A neural networks deep dive](https://developer.ibm.com/articles/cc-cognitive-neural-networks-deep-dive/ "Redirect to Outside Post")[\
     ](#0)

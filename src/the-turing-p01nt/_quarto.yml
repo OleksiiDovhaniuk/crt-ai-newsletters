@@ -2,7 +2,10 @@ project:
   type: website
 
 website:
-  title: "CRT in AI Newsletter"
+  title: |
+    ![CRT in AI Newsletter](/logo.svg){height=32}
+  
+  favicon: favicon.png
   navbar:
     right:
       - text: About

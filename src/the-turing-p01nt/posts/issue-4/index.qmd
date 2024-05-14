@@ -1,6 +1,6 @@
 ---
 title: "It's Time To Talk About People Behind PhD"
-subtitle: "Issue #4"
+subtitle: "THE TURING P01NT | ISSUE #4"
 author: 
   - name: "Josh McGiff"
     url: "https://www.linkedin.com/in/joshmcgiff"
@@ -8,8 +8,6 @@ author:
     url: "https://www.crt-ai.ie/team/anais-claire-murat"
   - name: "Cathy Roche"
     url: "https://www.crt-ai.ie/team/cathy-roche"
-  - name: "Janet Choi"
-    url: "https://www.crt-ai.ie/team/janet-choi"
   - name: "Lavanya Vinod Pampana"
     url: "https://www.crt-ai.ie/team/lavanya-pampana"
   - name: "Sharmi Dev Gupta"
@@ -20,14 +18,18 @@ author:
     url: "https://www.crt-ai.ie/team/naa-korkoi"
   - name: "Kislay Raj"
     url: "https://www.linkedin.com/in/kislayraj95/?originalSubdomain=uk"
-date: "2024-05-17"
+  - name: "Oleksii Dovhaniuk"
+    url: "https://www.linkedin.com/in/oleksii-dovhaniuk-ab0580283"
+  - name: "Janet Choi"
+    url: "https://www.crt-ai.ie/team/janet-choi"
+date: "2024-05-20"
 image: "thumbnail.jpg"
-categories: [news]
+categories: [Podcast, PhD]
 ---
 
 ![Credit: Image created with Copilot by request "Give me image which the best displays PhD researchers working in the field of AI engineering"](issue04-image-01.jpg "CRT AI Image of PhD AI Engineering"){#issue4-img-phd-ai-engineering fig-alt="CRT AI Image of PhD AI Engineering"}
 
-**Deep Learnings: Challenges faced by non-EU PhD researchers applying for Travel Visas**
+## **Deep Learning: Challenges faced by non-EU PhD researchers applying for Travel Visas**
 
 Janet Choi Sr. Research Co-ordinator, SFI CRT in Artificial Intelligence Programme Co-ordinator
 
@@ -36,6 +38,8 @@ As an advocate for PhD students in our programme, the task was to facilitate the
 The process was by no means difficult, at first, I resolved to the fact that it would be a simple phone call. “Just make a call to VFS Global in Dublin, ask for the Embassy of the Netherlands, request for a group appointment.’’ I said to myself. 
 
 I was on hold, after waiting for the standard opening welcome and was put on to an operator who couldn’t manage my request, I was transferred to a case manager. Who was going to really help me now, to get my 23 appointments before April 2024. This was June, so loads of time at hand. 
+
+### When Reality Meets Expectations
 
 I was wrong. 
 
@@ -47,40 +51,36 @@ Long story short, from all 23 appointments being able to manage in one day, the 
 
 I felt sick with worry multiple times seeing students' disappointment. This trip, the programme's first international one, was too important to fail. I couldn't let all the effort spent on meetings, discussions, and countless emails with Amsterdam AI and the PhDs be wasted. The time invested in securing flights and accommodation before applications even opened felt at risk.
 
-\
+### Required Documents for Each Student
 
-The trips required the following documents, and in future I would advise all the students to do this, have a portfolio ready of all the documents required as listed below on their person when granted a visit to VFS Global. 
+The trips required the following documents, and in future I would advise all the students to do this, have a portfolio ready of all the documents required as listed below on their person when granted a visit to VFS Global. \
 
-\
+1.  Agenda/Itinerary for the visit on visiting site Letterhead
 
-1\) Agenda/Itinerary for the visit on visiting site Letterhead
+2.  Letter of Invitation from the institution/conference/event
 
-2\) Letter of Invitation from the institution/conference/event
+3.  Flights and accommodation booked
 
-3\) Flights and accommodation booked.
+4.  Letter of Support from their institution
 
-4\) Letter of Support from their institution
+5.  Travel Insurance (personal and institutional)
 
-5\) Travel Insurance (personal and institutional)
+6.  Bank Statements
 
-6\) Bank Statements
+7.  3 months’ pay slips
 
-7\) 3 months’ pay slips
+8.  Fully completed Application 
 
-8\) Fully completed Application 
+9.  VFS Global email invitation
 
-9\) VFS Global email invitation
-
-10\) Fee 
-
-\
+10. Fee 
 
 In all 40 of us made the visit across to The Netherland’s and springboarded some to apply for their Schengen Visa. 
 
-\
+### Lessons Learned
 
 Considering the current monopoly that VFS global have as the single operator for a majority of Embassies who rely on their service, I would say that their service is severely restrictive, and mediocre at best. 
 
-From their webpage, they state leveraging a robust experience in visa application processing, providing government with a holistic administrative solution to processing passport applications and provision of efficient consular services. https://www.vfsglobal.com/en/individuals/about.html
+From their webpage, they state leveraging a robust experience in visa application processing, providing government with a holistic administrative solution to processing passport applications and provision of efficient consular services. <https://www.vfsglobal.com/en/individuals/about.html>
 
 Not to mention, that if the appointment is early morning and one is travelling from Galway, Limerick or Cork the journey taken to make the appointment by car, train or bus is an additional time that needs to be factored in and in my view, if one cannot secure a visa appointment through their website, it could take 6-9 months to actually get one. Or contact that them directly, keeping in mind that you'll need to persistently seek updates and clarification until a confirmed appointment time and date is provided.

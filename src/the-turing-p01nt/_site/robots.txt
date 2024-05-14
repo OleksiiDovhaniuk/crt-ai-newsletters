@@ -1,1 +1,1 @@
-Sitemap: https://8ebf1b39-0cb7-450f-91fe-092ff7d495d7.netlify.app/sitemap.xml
+Sitemap: https://crt-ai.quarto.pub/newsletter-turing-point/sitemap.xml

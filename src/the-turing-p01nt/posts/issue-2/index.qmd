@@ -1,6 +1,6 @@
 ---
 title: "It's Time To Talk About Bias"
-subtitle: "Issue #2"
+subtitle: "THE TURING P01NT | ISSUE #2"
 author: 
   - name: "Anaïs Murat"
     url: "https://www.crt-ai.ie/team/anais-claire-murat"
@@ -20,7 +20,7 @@ author:
     url: "https://www.linkedin.com/in/kislayraj95/?originalSubdomain=uk"
 date: "2022-08-15"
 image: "thumbnail.jpg"
-categories: [news]
+categories: [Podcast, Dictionary, PhD]
 ---
 
 ![](ai-bias.jpg "CRT AI Image of AI Bias"){#issue2-img-ai-bias fig-alt="CRT AI Image of AI Bias"}
@@ -67,7 +67,7 @@ The CRT-AI’s Padlet now provides you with a nice place to advertise your work 
 
 ###### *by ​​Anaïs Murat*
 
-![](./TheTuringPoint Issue 2_files/voice-assistants-transforming-the-lives.jpeg){alt=""}
+![](./TheTuringPoint%20Issue%202_files/voice-assistants-transforming-the-lives.jpeg){alt=""}
 
 Despite all of them being synthetic voices, default assistants’ voices have one thing in common: they sound feminine. Here, we try to investigate why it is so.
 
@@ -204,7 +204,7 @@ Data feminism is a framework for thinking about data, informed by intersectional
 
 1.  
 
-![AI and Data Science meetup at BNY Mellon](./TheTuringPoint Issue 2_files/1653515533090.jpeg){alt="AI and Data Science meetup at BNY Mellon"}
+![AI and Data Science meetup at BNY Mellon](./TheTuringPoint%20Issue%202_files/1653515533090.jpeg)
 
 ### AI and Data Science meetup at BNY Mellon
 
@@ -238,7 +238,7 @@ As humans, we may assume that when we communicate, we do so without bias towards
 
     One solution involves examining the whole ML pipeline: (i) Dataset, (ii) Training (or the model) and (iii) Results.  Within the dataset, ensuring a balanced distribution of all subgroups can be achieved when pre-processing the data. During training, one can include the constraints of fairness like demographic parity (statistical independence between outcome and demographics), so that the model optimises for accuracy and fairness. Finally, one can make post-hoc changes to the outputs so that the demographic distribution is balanced. The figure below indicates techniques that can be used to address bias at each stage \[6,7\].
 
-![](./TheTuringPoint Issue 2_files/pic1.png)
+![](./TheTuringPoint%20Issue%202_files/pic1.png)
 
 **Conclusion**
 

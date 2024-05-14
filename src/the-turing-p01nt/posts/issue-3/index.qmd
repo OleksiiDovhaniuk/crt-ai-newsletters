@@ -1,6 +1,6 @@
 ---
 title: "It's Time To Talk Generative AI"
-subtitle: "Issue #3"
+subtitle: "THE TURING P01NT | ISSUE #3"
 author: 
   - name: "Anaïs Murat"
     url: "https://www.crt-ai.ie/team/anais-claire-murat"
@@ -28,12 +28,12 @@ author:
     url: "https://www.crt-ai.ie/team/janet-choi"
 date: "2023-12-24"
 image: "thumbnail.jpg"
-categories: [news]
+categories: [Podcast, Reports]
 ---
 
 ![Credit: Image created with Copilot by request "Give me image which the best displays Generative AI"](issue03-img-01.jpg "CRT AI Image of Generative AI"){#issue3-img-generative-ai fig-alt="CRT AI Image of Generative AI"}
 
-# **Welcome to the 3rd Edition of the Turing Point Newsletter!** 
+# **Welcome to the 3rd Edition of the Turing Point Newsletter!**
 
 Greetings from the CRT in AI Newsletter Committee and the release of the third edition of **The Turing Point Newsletter.**
 
@@ -49,28 +49,24 @@ It's crucial, while we continue to explore these unexplored territories, to keep
 
 Find out more from your fellow PhD researchers by tuning into our student-led AI podcast series on Generative AI and tell us what you think! 
 
-# **Generative AI Podcast**
-
-{{< video https://www.youtube.com/watch?v=v6cBCAkckjI title="Generative AI Podcast" start="116" aspect-ratio="2x1" >}}
+## **Turing Point Podcast**
 
 Episode 3:  Generative AI Podcast! CRT-AI PhD researcher Sharmi Dev Gupta who moderates a lively conversation with Rory Ward, CRT-AI student  about the impacts of Generative AI in this series of the Turing Point Podcasts in Artificial Intelligence.
 
-# **The SFI CRT in AI PhD Handbook 2023/24** 
+{{< video https://www.youtube.com/watch?v=v6cBCAkckjI title="Generative AI Podcast" start="116" aspect-ratio="2x1" >}}
 
-[![](phd-handbook.jpg "The SFI CRT in AI PhD Handbook 2023/24 Thumbnail"){alt="The SFI CRT in AI PhD Handbook Thumbnail 2023/24" target="_blank" fig-alt="The SFI CRT in AI PhD Handbook 2023/24 Thumbnail"}](https://www.crt-ai.ie/wp-content/uploads/2023/12/Copy-of-The-SFI-Centre-for-Research-Training-in-Artificial-Intelligence-1.pdf)
+## **The SFI CRT in AI PhD Handbook and Event Reports**
 
-::: {.grid }
-
-::: {.g-col-6 .d-flex .justify-content-center}
-
-[2023 Events](https://photos.onedrive.com/share/EBE74CBABB601878!3230?cid=EBE74CBABB601878&resId=EBE74CBABB601878!3230&authkey=!AHrOA0gV_Fsx26M&ithint=photo&e=sbkVr8 "See Report"){.btn .btn-lg .btn-outline-primary .btn role="button" data-toggle="tooltip" title="Link - 2023 Events Report"}
-
+::: grid
+::: {.g-col-6 .d-flex .flex-column .justify-content-center}
+Click on the picture to the right to see SFI CRT in AI PhD Handbook 2023/24
 :::
 
-::: {.g-col-6 .d-flex .justify-content-center}
-
-[2024 Events](https://photos.onedrive.com/share/EBE74CBABB601878!3231?cid=EBE74CBABB601878&resId=EBE74CBABB601878!3231&authkey=!AJmvl73EdAHZvtg&ithint=photo&e=yof2Ia "See Report"){.btn .btn-lg .btn-outline-primary .btn role="button" data-toggle="tooltip" title="Link - 2024 Events Report"}
-
+::: {.g-col-6 .d-flex .flex-column .justify-content-center}
+[![](phd-handbook.jpg "The SFI CRT in AI PhD Handbook 2023/24 Thumbnail"){alt="The SFI CRT in AI PhD Handbook Thumbnail 2023/24" target="_blank" fig-alt="The SFI CRT in AI PhD Handbook 2023/24 Thumbnail" fig-align="right" width="256"}](https://www.crt-ai.ie/wp-content/uploads/2023/12/Copy-of-The-SFI-Centre-for-Research-Training-in-Artificial-Intelligence-1.pdf)
+:::
 :::
 
-:::
+[![](event-report-2023.png "CRT-AI Event Report 2023"){fig-alt="CRT-AI Event Report 2023" fig-align="center"}](https://photos.onedrive.com/share/EBE74CBABB601878!3230?cid=EBE74CBABB601878&resId=EBE74CBABB601878!3230&authkey=!AHrOA0gV_Fsx26M&ithint=photo&e=sbkVr8)
+
+[![](event-report-2024.png "CRT-AI Event Report 2024"){fig-alt="CRT-AI Event Report 2024" fig-align="center"}](https://photos.onedrive.com/share/EBE74CBABB601878!3231?cid=EBE74CBABB601878&resId=EBE74CBABB601878!3231&authkey=!AJmvl73EdAHZvtg&ithint=photo&e=yof2Ia)
