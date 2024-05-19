@@ -49,6 +49,9 @@ ul.task-list li input[type="checkbox"] {
 <script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
 <link href="../../site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
+<script src="../../site_libs/quarto-contrib/glightbox/glightbox.min.js"></script>
+<link href="../../site_libs/quarto-contrib/glightbox/glightbox.min.css" rel="stylesheet">
+<link href="../../site_libs/quarto-contrib/glightbox/lightbox.css" rel="stylesheet">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -78,7 +81,7 @@ ul.task-list li input[type="checkbox"] {
 }</script>
 
 
-<link rel="stylesheet" href="../../styles.css">
+<link rel="stylesheet" href="../../bootstrap.css">
 </head>
 
 <body class="nav-fixed fullcontent">
@@ -182,7 +185,7 @@ ul.task-list li input[type="checkbox"] {
 
 
 
-<p><img src="ai-bias.jpg" title="CRT AI Image of AI Bias" id="issue2-img-ai-bias" class="img-fluid" alt="CRT AI Image of AI Bias"></p>
+<p><a href="ai-bias.jpg" class="lightbox" data-gallery="quarto-lightbox-gallery-1"><img src="ai-bias.jpg" title="CRT AI Image of AI Bias" class="rounded-1 img-fluid" alt="CRT AI Image of AI Bias"></a></p>
 <section id="welcoming-words" class="level3">
 <h3 class="anchored" data-anchor-id="welcoming-words">Welcoming words</h3>
 <p>Welcome to the second issue of the CRT-AI Newsletter “The Turing Point”. This time we talk about bias in AI. Even though the topic has received quite a lot of attention in recent years, the level of awareness remains low. Knowing what tools a scientist can use to spot, evaluate and mitigate any form of bias is of great importance. For this issue, our team prepared a list of interesting articles, tools and datasets that can help you on your PhD ​​​​​journey.</p>
@@ -221,7 +224,7 @@ The CRT-AI’s Padlet now provides you with a nice place to advertise your work 
 <h1>The Voice Question: Is AI Voice Gendered?</h1>
 <section id="by-anaïs-murat" class="level6">
 <h6 class="anchored" data-anchor-id="by-anaïs-murat"><em>by ​​Anaïs Murat</em></h6>
-<p><img src="./TheTuringPoint Issue 2_files/voice-assistants-transforming-the-lives.jpeg" class="img-fluid" alt=""></p>
+<p><a href="./TheTuringPoint Issue 2_files/voice-assistants-transforming-the-lives.jpeg" class="lightbox" data-gallery="quarto-lightbox-gallery-2"><img src="./TheTuringPoint Issue 2_files/voice-assistants-transforming-the-lives.jpeg" class="img-fluid" alt=""></a></p>
 <p>Despite all of them being synthetic voices, default assistants’ voices have one thing in common: they sound feminine. Here, we try to investigate why it is so.</p>
 </section>
 <section id="is-voice-gendered" class="level3">
@@ -323,7 +326,7 @@ Here, we question the neutrality of this voice, and argue that it might just mov
 </ol>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><img src="./TheTuringPoint Issue 2_files/1653515533090.jpeg" class="img-fluid figure-img"></p>
+<p><a href="./TheTuringPoint Issue 2_files/1653515533090.jpeg" class="lightbox" data-glightbox="description: .lightbox-desc-3" data-gallery="quarto-lightbox-gallery-3" title="AI and Data Science meetup at BNY Mellon"><img src="./TheTuringPoint Issue 2_files/1653515533090.jpeg" class="img-fluid figure-img" alt="AI and Data Science meetup at BNY Mellon"></a></p>
 <figcaption>AI and Data Science meetup at BNY Mellon</figcaption>
 </figure>
 </div>
@@ -353,7 +356,7 @@ Here, we question the neutrality of this voice, and argue that it might just mov
 <p>&nbsp; &nbsp; What can be done when it is clear that a model is not working well for a particular set of people? There are several approaches to help improve model performance.&nbsp;</p>
 <p><strong>Proposed solution</strong></p>
 <p>&nbsp; &nbsp; One solution involves examining the whole ML pipeline: (i) Dataset, (ii) Training (or the model) and (iii) Results. &nbsp;Within the dataset, ensuring a balanced distribution of all subgroups can be achieved when pre-processing the data. During training, one can include the constraints of fairness like demographic parity (statistical independence between outcome and demographics), so that the model optimises for accuracy and fairness. Finally, one can make post-hoc changes to the outputs so that the demographic distribution is balanced. The figure below indicates techniques that can be used to address bias at each stage [6,7].</p>
-<p><img src="./TheTuringPoint Issue 2_files/pic1.png" class="img-fluid"></p>
+<p><a href="./TheTuringPoint Issue 2_files/pic1.png" class="lightbox" data-gallery="quarto-lightbox-gallery-4"><img src="./TheTuringPoint Issue 2_files/pic1.png" class="img-fluid"></a></p>
 <p><strong>Conclusion</strong></p>
 <p>&nbsp; &nbsp; Within ML, biased data produces biased models: whether it is intentional or unintentional, any data not reflective of the range of potential outcomes, will result in bias. Sampling bias can lead to inaccurate models, particularly if they are built using historical datasets which have built-in biases. For example, if a company trains a model to assist in decision-making about promotions and has a poor track record of promoting women, its model will likely make the same biased decisions because of the nature of the training data. Similarly, a model trained on speech that was simple for its inventor to collect (from themselves, their family and friends), who might all speak with similar accents or inflection, the resulting ASR model may reflect a preference for such voices and may not recognise those with a different tone or accent [7].</p>
 <p>&nbsp; &nbsp; While there is no easy, universal method for identifying and addressing bias in ASR systems, it is important that all data is examined for potential bias before models are developed and deployed. Observe patterns in the data, anticipate the populations affected by the model’s decisions and be aware of what is missing from the dataset.&nbsp;</p>
@@ -367,6 +370,9 @@ Here, we question the neutrality of this voice, and argue that it might just mov
 <p>[7] Yuan, M., Kumar, V., Ahmad, M.A.&nbsp;and Teredesai, A., 2021. Assessing Fairness in Classification Parity of Machine Learning Models in Healthcare. arXiv preprint arXiv:2102.03717.</p>
 
 
+<div class="hidden" aria-hidden="true">
+<span class="glightbox-desc lightbox-desc-3">AI and Data Science meetup at BNY Mellon</span>
+</div>
 </section>
 </section>
 
@@ -781,6 +787,31 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 });
 </script>
 </div> <!-- /content -->
+<script>var lightboxQuarto = GLightbox({"selector":".lightbox","loop":false,"closeEffect":"zoom","openEffect":"zoom","descPosition":"bottom"});
+window.onload = () => {
+  lightboxQuarto.on('slide_before_load', (data) => {
+    const { slideIndex, slideNode, slideConfig, player, trigger } = data;
+    const href = trigger.getAttribute('href');
+    if (href !== null) {
+      const imgEl = window.document.querySelector(`a[href="${href}"] img`);
+      if (imgEl !== null) {
+        const srcAttr = imgEl.getAttribute("src");
+        if (srcAttr && srcAttr.startsWith("data:")) {
+          slideConfig.href = srcAttr;
+        }
+      }
+    } 
+  });
+
+  lightboxQuarto.on('slide_after_load', (data) => {
+    const { slideIndex, slideNode, slideConfig, player, trigger } = data;
+    if (window.Quarto?.typesetMath) {
+      window.Quarto.typesetMath(slideNode);
+    }
+  });
+
+};
+          </script>
 
 
 

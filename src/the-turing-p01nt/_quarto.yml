@@ -25,7 +25,11 @@ website:
 format:
   html:
     theme: united
-    css: styles.css
+    css: bootstrap.css
+    
+filters:
+  - lightbox
+lightbox: auto
 
 editor: visual
 

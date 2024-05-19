@@ -23,7 +23,7 @@ image: "thumbnail.jpg"
 categories: [Podcast, Dictionary, PhD]
 ---
 
-![](ai-bias.jpg "CRT AI Image of AI Bias"){#issue2-img-ai-bias fig-alt="CRT AI Image of AI Bias"}
+![](ai-bias.jpg "CRT AI Image of AI Bias"){.rounded-1 fig-alt="CRT AI Image of AI Bias"}
 
 ### Welcoming words
 

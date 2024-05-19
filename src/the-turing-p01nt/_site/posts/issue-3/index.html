@@ -53,6 +53,9 @@ ul.task-list li input[type="checkbox"] {
 <script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
 <link href="../../site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
+<script src="../../site_libs/quarto-contrib/glightbox/glightbox.min.js"></script>
+<link href="../../site_libs/quarto-contrib/glightbox/glightbox.min.css" rel="stylesheet">
+<link href="../../site_libs/quarto-contrib/glightbox/lightbox.css" rel="stylesheet">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -82,7 +85,7 @@ ul.task-list li input[type="checkbox"] {
 }</script>
 
 
-<link rel="stylesheet" href="../../styles.css">
+<link rel="stylesheet" href="../../bootstrap.css">
 </head>
 
 <body class="nav-fixed fullcontent">
@@ -191,7 +194,7 @@ ul.task-list li input[type="checkbox"] {
 
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><img src="issue03-img-01.jpg" title="CRT AI Image of Generative AI" class="img-fluid figure-img"></p>
+<p><a href="issue03-img-01.jpg" class="lightbox" data-gallery="quarto-lightbox-gallery-1" data-glightbox="description: .lightbox-desc-1" title="Credit: Image created with Copilot by request “Give me image which the best displays Generative AI”"><img src="issue03-img-01.jpg" title="CRT AI Image of Generative AI" class="rounded-1 img-fluid figure-img" alt="CRT AI Image of Generative AI"></a></p>
 <figcaption>Credit: Image created with Copilot by request “Give me image which the best displays Generative AI”</figcaption>
 </figure>
 </div>
@@ -218,23 +221,26 @@ ul.task-list li input[type="checkbox"] {
 <div class="g-col-6 d-flex flex-column justify-content-center">
 <div class="quarto-figure quarto-figure-right">
 <figure class="figure">
-<p><a href="https://www.crt-ai.ie/wp-content/uploads/2023/12/Copy-of-The-SFI-Centre-for-Research-Training-in-Artificial-Intelligence-1.pdf"><img src="phd-handbook.jpg" title="The SFI CRT in AI PhD Handbook 2023/24 Thumbnail" class="img-fluid quarto-figure quarto-figure-right figure-img" alt="The SFI CRT in AI PhD Handbook 2023/24 Thumbnail" target="_blank" width="256"></a></p>
+<p><a href="https://www.crt-ai.ie/wp-content/uploads/2023/12/Copy-of-The-SFI-Centre-for-Research-Training-in-Artificial-Intelligence-1.pdf"><img src="phd-handbook.jpg" title="The SFI CRT in AI PhD Handbook 2023/24 Thumbnail" class="rounded-1 img-fluid quarto-figure quarto-figure-right figure-img" alt="The SFI CRT in AI PhD Handbook 2023/24 Thumbnail" target="_blank" width="256"></a></p>
 </figure>
 </div>
 </div>
 </div>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><a href="https://photos.onedrive.com/share/EBE74CBABB601878!3230?cid=EBE74CBABB601878&amp;resId=EBE74CBABB601878!3230&amp;authkey=!AHrOA0gV_Fsx26M&amp;ithint=photo&amp;e=sbkVr8"><img src="event-report-2023.png" title="CRT-AI Event Report 2023" class="img-fluid quarto-figure quarto-figure-center figure-img" alt="CRT-AI Event Report 2023"></a></p>
+<p><a href="https://photos.onedrive.com/share/EBE74CBABB601878!3230?cid=EBE74CBABB601878&amp;resId=EBE74CBABB601878!3230&amp;authkey=!AHrOA0gV_Fsx26M&amp;ithint=photo&amp;e=sbkVr8"><img src="event-report-2023.png" title="CRT-AI Event Report 2023" class="rounded-1 img-fluid quarto-figure quarto-figure-center figure-img" alt="CRT-AI Event Report 2023"></a></p>
 </figure>
 </div>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><a href="https://photos.onedrive.com/share/EBE74CBABB601878!3231?cid=EBE74CBABB601878&amp;resId=EBE74CBABB601878!3231&amp;authkey=!AJmvl73EdAHZvtg&amp;ithint=photo&amp;e=yof2Ia"><img src="event-report-2024.png" title="CRT-AI Event Report 2024" class="img-fluid quarto-figure quarto-figure-center figure-img" alt="CRT-AI Event Report 2024"></a></p>
+<p><a href="https://photos.onedrive.com/share/EBE74CBABB601878!3231?cid=EBE74CBABB601878&amp;resId=EBE74CBABB601878!3231&amp;authkey=!AJmvl73EdAHZvtg&amp;ithint=photo&amp;e=yof2Ia"><img src="event-report-2024.png" title="CRT-AI Event Report 2024" class="rounded-1 img-fluid quarto-figure quarto-figure-center figure-img" alt="CRT-AI Event Report 2024"></a></p>
 </figure>
 </div>
 
 
+<div class="hidden" aria-hidden="true">
+<span class="glightbox-desc lightbox-desc-1">Credit: Image created with Copilot by request “Give me image which the best displays Generative AI”</span>
+</div>
 </section>
 </section>
 
@@ -649,6 +655,31 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 });
 </script>
 </div> <!-- /content -->
+<script>var lightboxQuarto = GLightbox({"descPosition":"bottom","openEffect":"zoom","closeEffect":"zoom","selector":".lightbox","loop":false});
+window.onload = () => {
+  lightboxQuarto.on('slide_before_load', (data) => {
+    const { slideIndex, slideNode, slideConfig, player, trigger } = data;
+    const href = trigger.getAttribute('href');
+    if (href !== null) {
+      const imgEl = window.document.querySelector(`a[href="${href}"] img`);
+      if (imgEl !== null) {
+        const srcAttr = imgEl.getAttribute("src");
+        if (srcAttr && srcAttr.startsWith("data:")) {
+          slideConfig.href = srcAttr;
+        }
+      }
+    } 
+  });
+
+  lightboxQuarto.on('slide_after_load', (data) => {
+    const { slideIndex, slideNode, slideConfig, player, trigger } = data;
+    if (window.Quarto?.typesetMath) {
+      window.Quarto.typesetMath(slideNode);
+    }
+  });
+
+};
+          </script>
 
 
 

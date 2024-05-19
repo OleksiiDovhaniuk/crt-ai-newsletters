@@ -1,23 +1,19 @@
 ---
-title: "It's Time To Talk About People Behind PhD"
+title: "It's Time to Talk About People Behind the PhD"
 subtitle: "THE TURING P01NT | ISSUE #4"
+toc: true
+self-contained: true
 author: 
   - name: "Josh McGiff"
     url: "https://www.linkedin.com/in/joshmcgiff"
   - name: "Anaïs Murat"
     url: "https://www.crt-ai.ie/team/anais-claire-murat"
-  - name: "Cathy Roche"
-    url: "https://www.crt-ai.ie/team/cathy-roche"
-  - name: "Lavanya Vinod Pampana"
-    url: "https://www.crt-ai.ie/team/lavanya-pampana"
-  - name: "Sharmi Dev Gupta"
-    url: "https://www.crt-ai.ie/team/sharmi-dev-gupta"
-  - name: "Yanlin Mi"
-    url: "https://www.crt-ai.ie/team/yanlin-mi"
   - name: "Naa Korkoi Addo"
     url: "https://www.crt-ai.ie/team/naa-korkoi"
-  - name: "Kislay Raj"
-    url: "https://www.linkedin.com/in/kislayraj95/?originalSubdomain=uk"
+  - name: "Kevlyn Kadamala"
+    url: "https://www.crt-ai.ie/team/kevlyn-kadamala"
+  - name: "Sharmi Dev Gupta"
+    url: "https://www.crt-ai.ie/team/sharmi-dev-gupta"
   - name: "Oleksii Dovhaniuk"
     url: "https://www.linkedin.com/in/oleksii-dovhaniuk-ab0580283"
   - name: "Janet Choi"
@@ -27,9 +23,77 @@ image: "thumbnail.jpg"
 categories: [Podcast, PhD, Reports]
 ---
 
-![Credit: Image created with Copilot by request "Give me image which the best displays PhD researchers working in the field of AI engineering"](issue04-image-01.jpg "CRT AI Image of PhD AI Engineering"){#issue4-img-phd-ai-engineering fig-alt="CRT AI Image of PhD AI Engineering"}
+![Credit: Image created with Copilot by request "Give me image which the best displays PhD researchers working in the field of AI engineering"](issue04-image-01.jpg "CRT AI Image of PhD AI Engineering"){.rounded-1 fig-alt="CRT AI Image of PhD AI Engineering"}
 
-## **Deep Learning: Challenges faced by non-EU PhD researchers applying for Travel Visas**
+## Recent Research by CRT in AI PhDs
+
+*The full articles can be accessed by clicking on authors' names.*
+
+### [M. Adeel Haffeez](https://www.scitepress.org/PublishedPapers/2024/124613/)
+
+**Title:** Depth Estimation Using Weighted-Loss and Transfer Learning
+
+**Summary:** I present a method that improves depth estimation accuracy from 2D images. I proposed a novel loss function that combines Mean Absolute Error (MAE), Edge Loss, and Structural Similarity Index (SSIM) for enhanced robustness and generalization. I evaluated several pre-trained DenseNet and EfficientNet encoder-decoder models on the NYU Depth Dataset v2. The EfficientNet architecture, paired with a simple decoder and the optimized loss function, delivered outstanding results, achieving RMSE, REL, and log10 scores of 0.386, 0.113, and 0.049, respectively, outperforming existing models in accuracy and robustness.
+
+### [Yumnah Hasan](https://rdcu.be/dHiq6)
+
+**Title:** Interpretable Solutions for Breast CancerDiagnosis with Grammatical Evolution and Data Augmentation
+
+**Summary:** Medical imaging diagnosis increasingly relies on Machine Learning (ML) models, but is often hindered by imbalanced datasets and limited interpretability. This paper proposes using the STEM synthetic data generation technique with Grammatical Evolution (GE) models, known for their interpretability. STEM combines SMOTE, ENN, and Mixup to address imbalance issues. Testing on DDSM and WBC datasets against standard ML classifiers, GE-derived models show the highest AUC while remaining interpretable. This highlights the effectiveness of STEM in producing interpretable ML models for medical imaging diagnosis, addressing both imbalance and interpretability challenges in the field.
+
+**Additional Notes:** *This paper was nominated for the best paper award in Evostar 2024. It also won the best poster award. I received an outstanding student nomination for this award.*
+
+### [Muhammad Asad](https://arxiv.org/abs/2404.04456)
+
+**Title:** Beyond the Known: Adversarial Autoencoders in Novelty Detection
+
+**Summary:** In novelty detection, the aim is to classify new data points as inliers or outliers based on a training dataset of inliers. We employ a lightweight deep network, leveraging a deep encoder-decoder framework to generate a reconstruction error. This error is used to calculate a probabilistic novelty score. Our research introduces two innovations: first, we linearize the manifold representing the inlier distribution to interpret the novelty probability in relation to manifold's local tangent space coordinates. Second, we enhance the network's training protocol. Our methodology demonstrates superior performance in identifying the target class compared to recent advanced methods across multiple benchmark datasets.
+
+### [Kevlyn Kadamala](https://www.sciencedirect.com/science/article/pii/S2666955224000017)
+
+**Title:** Enhancing HVAC control systems through transfer learning with deep reinforcement learning agents
+
+**Summary:** Traditional HVAC control systems relied on rule-based schedulers, but deep reinforcement learning offers a data-driven approach without explicit programming. However, learning effective policies from scratch can be time-consuming. Transfer learning with pre-trained models can save time and resources by leveraging existing knowledge. In this study, we use reinforcement learning  to pre-train and fine-tune neural networks for HVAC control. An RL agent was trained in a building simulation environment and then fine-tuned on different environments simulating varied weather conditions and buildings. Results showed transfer learning agents outperformed rule-based controllers, with improvements ranging from 1% to 4% compared to agents trained from scratch.
+
+## Updates in AI Policies and Regulations
+
+-   [Interim Guidelines for Use of AI in the Public Services (updated February 2024)](https://assets.gov.ie/280459/73ce75af-0015-46af-a9f6-b54f0a3c4fd0.pdf "Redirects to the PDF file")
+
+-   [GDPR's ban on using special categories of data](https://iapp.org/news/a/the-ai-acts-debiasing-exception-to-the-gdpr/ "Redirects to GFPR's ban details")
+
+-   [AI - Here for Good: Progress Report on the National AI Strategy](https://enterprise.gov.ie/en/publications/publication-files/progress-report-national-ai-strategy-ai-here-for-good.pdf "Redirects to the PDF file")
+
+-   [Ministers welcome agreement on EU Artificial Intelligence (AI) Act](https://www.gov.ie/en/press-release/8d7cb-ministers-welcome-agreement-on-eu-artificial-intelligence-ai-act/ "Redirects to the post on www.gov.ie")
+
+-   [Artificial Intelligence Act](https://www.europarl.europa.eu/doceo/document/TA-9-2024-0138_EN.pdf "Redirects to the Artificial Intelligence Act PDF File")
+
+-   [An Overview of the Artificial Intelligence (AI) Act](https://artificialintelligenceact.eu/wp-content/uploads/2024/01/AI-Act-Overview_24-01-2024.pdf "Redirects to the AI Act overview")
+
+-   [High-level summary of the AI Act](https://artificialintelligenceact.eu/high-level-summary/ "Redirects to the AI Act summary")
+
+-   [A risk-based approach: The Regulatory Framework defines 4 levels of risk for AI systems](https://digital-strategy.ec.europa.eu/en/policies/regulatory-framework-ai "Redirects to the framework's details")
+
+-   [EPRS BRI 2021](https://www.europarl.europa.eu/RegData/etudes/BRIE/2021/698792/EPRS_BRI(2021)698792_EN.pdf "Redirects to the PDF file")
+
+-   [A You Tube video regarding AI regulations](https://www.youtube.com/watch?v=P2krunLNGHo "Redirects to the You Tube video")
+
+-   [AI innovation package to support Artificial Intelligence startups and SMEs](https://ec.europa.eu/commission/presscorner/detail/en/ip_24_383 "Redirects to the page with details regarding AI startups")
+
+## CRT in AI Students Visited The University of Amsterdam
+
+The CRT in AI Programme was thrilled to bring 40 students to The University of Amsterdam in April 2024 to hear from AI experts from The Amsterdam AI group. Led by Paul Buitelaar, Derek Bridge and Suzanne Little, this 3 day visit, included a cohort build exercise at the Rijksmuseum and free time to network with one another. Overall, the first ever international CRT in AI cohort visit was a positive one, we are looking forward to exposing our CRT in AI researchers to more learning opportunities in the near future!
+
+![](aimsterdam-ai.jpg "CRT in AI Students Group Photo form the Amsterdam Trip"){.rounded-1 fig-alt="CRT in AI Students Group Photo form the Amsterdam Trip" fig-align="center"}
+
+Anonymous feedback:
+
+-   *Amsterdam AI trip was a very enriching team-building experience, talking to PhD students from Irish universities about their research and learning about the country together. Also discussion about various facets of AI research happening in Netherlands was also quite interesting. Overall very good experience.*
+
+-   *4/5 « A good few days in Amsterdam; fun meeting up with the different cohorts and leaving with some perfume from the 16th century. The sandwiches provided along with the opportunities (notably postdoc) were good!*
+
+-   *4.5/5 Amsterdam AI trip was a lovely experience. From the cohort building activities to the free time to allow us explore and the topics for the presentation. The presentations were informative and the entire program ran smooth. It was definitely worth my while*
+
+## Deep Learning: Challenges faced by non-EU PhD researchers applying for Travel Visas
 
 *By: Janet Choi Sr. Research Co-ordinator, SFI CRT in Artificial Intelligence Programme Manager*
 
@@ -61,24 +125,15 @@ This trip, the programme's first international one, was too important to fail. I
 
 The Embassy required the following documents, and in future I would advise all the students to do this, have a portfolio ready of all the documents required as listed below on their person when granted a visit to VFS Global. The list below is mandatory. 
 
--   Agenda/Itinerary for the visit on visiting site Letterhead
-
--   Letter of Invitation from the institution/conference/event
-
+-   Agenda/ Itinerary for the visit on visiting site Letterhead
+-   Letter of Invitation from the institution/ conference/ event
 -   Flights and accommodation booked- Travel Itinerary
-
 -   Letter of Support from their institution - Sponsor Letter
-
 -   Travel Insurance (personal and institutional)
-
 -   3 months Bank Statements
-
 -   3 months’ pay slips
-
 -   Fully completed VFS Application 
-
 -   VFS Global email invitation 
-
 -   Fee 
 
 ### Lessons Learned
@@ -87,7 +142,7 @@ In all, 40 of us made the visit across to The Netherland’s and the visa applic
 
 Considering the monopoly that VFS global have as the single operator for a majority of Embassies who rely on their service, I would say that their service is severely restrictive, and mediocre at best. 
 
-From their webpage, they state leveraging a robust experience in visa application processing, providing governments with a holistic administrative solution to processing passport applications and provision of efficient consular services. Which left me with no comment. See <https://www.vfsglobal.com/en/individuals/about.html>
+From their webpage, they state leveraging a robust experience in visa application processing, providing governments with a holistic administrative solution to processing passport applications and provision of efficient consular services. Which left me with no comment. See [vfsglobal.com](https://www.vfsglobal.com/en/individuals/about.html "Redirects to VFS global web page"){.uri}.
 
 Not to add, one needs to account for the extra time and money needed for the trip if the appointment was early in the morning and they were coming from Galway, Limerick, or Cork.
 
@@ -97,6 +152,145 @@ My advice, is to contact VFS directly, keeping in mind that the applicant will 
 
 Travelling without the need for a visa is an honour, shedding light on the stark differences in global mobility. This undertaking, underscored the inherent privilege enjoyed by those who can travel freely and frequently, unburdened by the often cumbersome visa application process.
 
-## CRT-AI Upcoming Events 2024 - 2025
+## Our Students in 30 under 30 Business Post
 
-![](CRTAI_Upcoming_Events_2024_2025.pdf "CRT-AI Upcoming Events 2024-2025"){.w-100 style="height: 40rem;" fig-alt="CRT-AI Upcoming Events 2024-2025" fig-align="center"}
+Three SFI CRT in AI PhD Researchers have earned recognition in Business Post- newspaper’s annual 30 under 30 list published on Saturday April 27th 2024. The prestigious honour puts a spotlight on Ireland’s promising tech talent. Congratulations to Nicola Rossberg, (supervised by Dr Andrea Visentin and Professor Barry O’Sullivan) Akasha Shafiq (supervised by Dr Paolo Palmieri) and Josh McGiff, CRT in AI Student based at the University of Limerick supervised by Nik Nikolov. These are our bright young stars in Ireland’s Tech scene and the ones to watch! 
+
+::: {.d-flex .flex-wrap-reverse .flex-md-nowrap .px-0}
+<div>
+
+### Akasha Shafiq
+
+**Cybersecurity researcher and founder of CyEd – University College Cork, School of Computer Science and Information Technology The SFI Centre for Research Training in Artificial Intelligence -1st Year PhD.**
+
+With a master’s in computer science behind her, Shafiq is now pursuing a PhD through research focused on cybersecurity and privacy-preserving environments. This research could contribute to the security of the internet of things and, meanwhile, Shafiq is also developing an edtech platform to make the world more cybersecurity savvy. Targeting younger users, CyEd gamifies the learning process to teach users fundamental concepts that will help keep them safe online.
+
+</div>
+
+::: {style="width: 60rem;"}
+![](business-post/akasha-avatar.jpg "Akasha Shafiq"){.w-50 style="width: 60rem;" fig-alt="Akasha Shafiq" fig-align="center" width="256"}
+:::
+:::
+
+### 
+
+::: {.d-flex .flex-wrap-reverse .flex-md-nowrap .px-0}
+::: pe-2
+### Nicola Rossberg
+
+**AI Researcher and Community Leader – University College Cork, School of Computer Science and Information Technology The SFI Centre for Research Training in Artificial Intelligence -1st Year PhD.**
+
+Currently, Nicola is conducting AI Research as a PhD candidate at the CRT in AI at University College Cork, Rossberg is examining natural language processing and deep learning- the kind of technologies that underpin LLM like ChatGPT, her research could lead to improved explainability of these technologies- something that is much needed in the industry. Outside of her PhD, she was involved in organising a record-setting edition of the Irish Collegiate Programming Competition this year, where students were challenged to their problem solving, numeracy and computer programming skills.
+:::
+
+::: {style="width: 76rem;"}
+![](business-post/nicola-avatar.jpg "Nicola Rossberg"){.w-50 style="width: 72rem;" fig-alt="Nicola Rossberg" fig-align="center" width="256"}
+:::
+:::
+
+### 
+
+::: {.d-flex .flex-wrap-reverse .flex-md-nowrap .px-0}
+<div>
+
+### Josh McGiff
+
+**Founder, Educator and Community Leader AI Researcher at The SFI Centre for Research Training in Artificial Intelligence -1st Year PhD University of Limerick.**
+
+Limerick- based McGiff lectures in the University of Limerick’s Immersive Software Engineering course while also completing his own PhD in AI. He is also the founder of the Twitch Ireland community, an online collective of viewers and creators on the popular streaming platform and has developed tools to support thousands of streamers through his business, Streambly. He knows their needs well, having dabbled in streaming himself, helping to popularise the Irish language as he’s done so.
+
+</div>
+
+::: {style="width: 60rem;"}
+![](business-post/josh-avatar.jpg "Josh McGiff"){.w-50 style="width: 64rem;" fig-alt="Josh McGiff" fig-align="center" width="256"}
+:::
+:::
+
+## Turing Point Podcast
+
+Episode 4: People Behind The PhD interview with Nicola Rossberg moderated by Josh McGiff. In this interview, Nicola Rossberg, a first-year PhD student with Science Foundation Ireland’s Centre for Research Training in Artificial Intelligence, discusses her work on explainable AI for medical applications, her unconventional path to AI through psychology and data science, and her efforts to tailor explainability techniques to complex medical data, highlighting the challenges and potential of integrating AI into medical practice amidst evolving EU guidelines.
+
+{{< video https://www.youtube.com/watch?v=Di8XjSE16O4 title=" People Behind The PhD w/ Nicola Rossberg - CRT-AI Ireland" start="116" aspect-ratio="2x1" class="rounded-1" >}}
+
+### People Behind The PhD w/ Nicola Rossberg
+
+*By Josh McGiff*
+
+*This interview has been taken and adapted from our recorded interview for clarity and brevity.*
+
+**Hello Nicola, thank you so much for joining me for People Behind The PhD! It's a pleasure to have you on this episode, I suppose, if we are calling it that (laughs). My main objective is to find out more about the people behind the PhD research within the CRT in AI program.**
+
+**Tell us about yourself! What does your research entail?**
+
+Right, so I am a first-year PhD, I'm actually almost done my first year now, and I'm working specifically in explainable AI, and currently looking at some medical applications of explainable AI and trying to tailor-make explainability methods for medical applications that actually take into account the type of data we're working with, rather than just being generically applied to a model.
+
+**Wow, that's very interesting. So within the medical sphere is kind of where you're focusing on. I don't have much of a biology background, so I feel like jumping into that from an AI point of view must be challenging, right?**
+
+Oh yeah, no, it was definitely really tough in the beginning, but I'm really lucky that I get to work with Tyndall National Institute, who are actually here in Cork as well, who are providing all the domain knowledge. So whenever I have any stupid questions where I'm like: “I don't understand how this works, please help me”. They're always there to kind of offer support, and they've been really great to provide any kind of factors that should be considered when I'm doing my research and when I'm designing my algorithms.
+
+**How did you find AI as kind of a topic that you wanted to focus your research on? What made you pick AI as a research area?**
+
+So my way to AI was actually kind of weird because my undergraduate was in psychology. So I actually majored in statistics and methodology, and I really liked the math aspect of all of it. I ended up taking a programming class as one of my electives during my final year, and I really liked programming. So I ended up actually choosing data science for my master's program. During my data science master's, I then took a deep learning class, which I thought was incredible.
+
+**What is your main research question or main objective at the moment?**
+
+I'm currently at a bit of a turning point because I finished my first paper. We're currently in the process of submitting to a few different conferences. My first paper was an application paper, so I was just deploying some different existing explainability techniques to this medical data, seeing what worked, testing out where were the pitfalls of deploying these explainability techniques. Now I'm currently in the process of moving on from there and actually starting to develop my own explainability technique, which is more tailor-made to the medical data. I'm currently writing a lot of code and doing a lot of trial and error to see where there's possible mistakes and where there's possible challenges that we could address, and also just doing a lot of reading to find gaps in the research that exists at the moment.
+
+**That’s so exciting and impressive about the application paper. So your next step is to dive deeper into your own explainability technique?**
+
+Yeah, definitely. One of the problems we're having with our data that we're working with is that it's really multidimensional and multicollinear, which causes a lot of issues with explainability because that means explainability often from one run to another won't be the same. It'll change constantly due to the data being so complex. So we're trying to find different ways of tackling that issue and seeing if we can just make it reliable in a sense. Also because that way it'll be easier for practitioners to understand how the AI algorithm works and it'll be easier to actually convince practitioners to use the AI algorithm.
+
+\
+**That's very interesting because I know from a bit of research that I've done that some of the issues with getting practitioners and medical people to actually adopt some of the very exciting AI models is because they are not convinced of the methods used for them or they don't understand what's going on within them. They would rather use their own traditional methods as opposed to using these new tools just because they simply don't understand them. Maybe with your kind of work more practitioners can be convinced that these technologies are actually a good thing.**
+
+Yeah, hopefully that would be fantastic. I'd be really happy with that. Also with the new AI guidelines coming in from the European Union, we're kind of looking at more of explainability in AI anyway because it's necessary for this type of trustworthiness, being able to audit models. So all in all it's an area that's really changing a lot right now and it's really interesting.
+
+**In terms of the technologies that you're using, are you using a neural network approach? Are you using traditional AI? What are your technical approaches?**
+
+So for my initial application paper I used a lot of neural networks and it was actually really interesting because initially my type of contribution was just going to be the explainability for neural networks. That was my kind of idea for the PhD, but we kind of ran into a wall in the sense that our more basic machine learning models like random forests were outperforming our neural networks. We didn't have much of a justification anymore to actually deploy the neural networks because why would you deploy something so complex and use a much simpler model? So now I'm actually looking at some explainability techniques for more traditional models like random forests, decision trees and seeing how they can be adapted to my data type.
+
+**That's very interesting. Do you think you'll ever try and expand on the neural network side of things again or have you parked that?**
+
+I would definitely like to just because I think it's incredibly interesting and I really like working with deep learning models because it's also what initially sparked my interest in AI. But I will need a good justification for it before I actually start with it again. \[Neural networks are\] very different as well and it is so hard to get data in the medical domain.
+
+**There's a lot of discussion at the moment around artificial general intelligence and I've looked into some articles about people that believe that we have artificial general intelligence coming quite soon. Some people say it's within the next decade or so, while there's also a smallish minority of people that say that it's never going to happen. I'm curious to hear what you think. Do you think that we are going towards artificial general intelligence?**
+
+Well I actually argued with my housemate about this a couple of weeks ago so it's fine to bring it up (laughs). I think it's definitely naive to say it's not going to happen because we thought ChatGPT and large language models weren't going to happen until a year ago and they came within months and they were just incredibly high functioning. So I think it's definitely going to happen and with the onset of quantum computing we have no idea what's actually going to be possible so I'm not going to put a time frame on it but I'd say it's definitely possible. It's just a matter of when.
+
+**Nicola Rossberg is currently a first year PhD student with Science Foundation Ireland’s Centre for Research Training in Artificial Intelligence.**
+
+## CRT in AI Upcoming Events 2024 - 2025
+
+::: container
+::: {.row .justify-content-center}
+::: {.col-12 .col-xl-9}
+![](CRT-AI_Upcoming_Events_2024-2025.png "CRT-AI Upcoming Events 2024-2025"){.w-100 .overflow-auto height="40rem" fig-alt="CRT-AI Upcoming Events 2024-2025" fig-align="center"}
+:::
+:::
+:::
+
+### Future Skills Showcase 2024
+
+In February 2023, The Future Skills Professional Showcase was held as a two day in person event. The core function was to help actively guide PhD Researchers to understand the skills required from industry professionals to facilitate their development of essential skills for post-graduation career success. 
+
+Our programme emphasises on the importance of workplace readiness for PhD researchers, having generated the original concept for the Future Professional Skills Showcase, an agenda focusing on the importance of preparing PhDs for workforce preparation, and employability. Investing in student development, we connected over 150+ PhD researchers with industry partners, promoting research communication and career-readiness.
+
+::: {.row .row-cols-3 .p-0}
+::: {.col .col-4 .mb-lg-0 .px-2}
+![](future-skills-showcase/img-2.jpg "The Future Skills 2023 CRT-AI Group Picture"){.w-100 .shadow-1-strong .rounded-1 group="future-skills-showcase" fig-alt="The Future Skills 2023 CRT-AI Group Picture"}
+
+![](future-skills-showcase/img-5.jpg "The Future Skills 2023 CRT-AI Research Women Selfie"){.w-100 .shadow-1-strong .rounded-1 group="future-skills-showcase" fig-alt="The Future Skills 2023 CRT-AI Research Women Selfie"}
+:::
+
+::: {.col .col-4 .mb-lg-0 .px-2}
+![](future-skills-showcase/img-1.jpg "The Future Skills 2023 A Presenter Picture"){.w-100 .shadow-1-strong .rounded-1 group="future-skills-showcase" fig-alt="The Future Skills 2023 A Presenter Picture"}
+
+![](future-skills-showcase/img-3.jpg "The Future Skills 2023 Q&A Session"){.w-100 .shadow-1-strong .rounded-1 group="future-skills-showcase" fig-alt="The Future Skills 2023 Q&A Session"}
+:::
+
+::: {.col .col-4 .mb-lg-0 .px-2}
+![](future-skills-showcase/img-4.jpg "The Future Skills 2023 CRT-AI Men Selfie"){.w-100 .shadow-1-strong .rounded-1 group="future-skills-showcase" fig-alt="The Future Skills 2023 CRT-AI Men Selfie"}
+
+![](future-skills-showcase/img-6.jpg "The Future Skills 2023 Presentation Room"){.w-100 .shadow-1-strong .rounded-1 group="future-skills-showcase" fig-alt="The Future Skills 2023 Presentation Room"}
+:::
+:::

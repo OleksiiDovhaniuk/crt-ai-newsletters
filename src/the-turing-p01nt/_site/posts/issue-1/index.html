@@ -49,6 +49,9 @@ ul.task-list li input[type="checkbox"] {
 <script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
 <link href="../../site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
+<script src="../../site_libs/quarto-contrib/glightbox/glightbox.min.js"></script>
+<link href="../../site_libs/quarto-contrib/glightbox/glightbox.min.css" rel="stylesheet">
+<link href="../../site_libs/quarto-contrib/glightbox/lightbox.css" rel="stylesheet">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -78,7 +81,7 @@ ul.task-list li input[type="checkbox"] {
 }</script>
 
 
-<link rel="stylesheet" href="../../styles.css">
+<link rel="stylesheet" href="../../bootstrap.css">
 </head>
 
 <body class="nav-fixed fullcontent">
@@ -184,7 +187,7 @@ ul.task-list li input[type="checkbox"] {
 
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><img src="barryosullivan.jpg" title="Professor O'Sullivan ​Director of CRT AI" class="img-fluid figure-img"></p>
+<p><a href="barryosullivan.jpg" class="lightbox" data-glightbox="description: .lightbox-desc-1" data-gallery="quarto-lightbox-gallery-1" title="Professor O’Sullivan ​Director of The Centre for Research Training in Artificial Intelligence"><img src="barryosullivan.jpg" title="Professor O'Sullivan ​Director of CRT AI" class="rounded-1 img-fluid figure-img" alt="Professor O'Sullivan ​Director of CRT AI"></a></p>
 <figcaption>Professor O’Sullivan ​Director of The Centre for Research Training in Artificial Intelligence</figcaption>
 </figure>
 </div>
@@ -334,7 +337,7 @@ Datasets that are not robust.</p></li>
 <p>“An attempt will be made to find how to make machines use language, form abstractions and concepts, solve kinds of problems now reserved for humans, and improve themselves. … For the present purpose the artificial intelligence problem is taken to be that of making a machine behave in ways that would be called intelligent if a human were so behaving.” [9]</p>
 <p>“The attendees at the 1956 Dartmouth conference shared a common defining belief, namely that the act of thinking is not something unique either to humans or indeed even biological beings. Rather, they believed that computation is a formally deducible phenomenon which can</p>
 <p>be understood in a scientific way and that the best nonhuman instrument for doing so is the digital computer (McCormack, 1979).” [9]</p>
-<p><img src="file:///C:/Users/jchoi/OneDrive/Desktop/Current/Turing%20Point/TheTuringPoint%20Issue%201_files/lads.png" class="img-fluid"></p>
+<p><a href="file:///C:/Users/jchoi/OneDrive/Desktop/Current/Turing%20Point/TheTuringPoint%20Issue%201_files/lads.png" class="lightbox" data-gallery="quarto-lightbox-gallery-2"><img src="file:///C:/Users/jchoi/OneDrive/Desktop/Current/Turing%20Point/TheTuringPoint%20Issue%201_files/lads.png" class="img-fluid"></a></p>
 <p>Marvin Minsky, Claude Shannon, Ray Solomonoff and other scientists at the Dartmouth Summer Research Project on Artificial Intelligence (Photo: Margaret Minsky) [9]</p>
 <p><img src="file:///C:/Users/jchoi/OneDrive/Desktop/Current/Turing%20Point/TheTuringPoint%20Issue%201_files/0925_rosenblatt4.jpeg" class="img-fluid">An image of the perceptron from Rosenblatt’s “The Design of an Intelligent Automaton,” Summer 1958 [8]</p>
 <p>It was period when everyone was trying to implement a neural network for a real-time application. Though the traditional Von Neumann architecture dominated the computing scene then, John Von Neumann worked on imitating neural functions by using telegraph relays or vacuum tube in 1957 and was not quite successful. Frank Rosenblatt developed the first perceptron by altering McCulloch-Pitt’s neuron. This perceptron follows the Hebbe’s rule, that is weighting the inputs, and was the building block of formation of neural networks. In July 1958, IBM 704, a 5-ton computer, the size of a room was fed a series of punch cards. The computer taught itself to distinguish the cards marked on the left from the cards marked on the right in 50 trials. This was the first demonstration of perceptron, the neural machine capable of delivering and conceiving the original idea which is still in use. He discussed the perceptron in detail in his 1962 book, Principles of Neurodynamics.</p>
@@ -394,6 +397,9 @@ Datasets that are not robust.</p></li>
 </ol>
 
 
+<div class="hidden" aria-hidden="true">
+<span class="glightbox-desc lightbox-desc-1">Professor O’Sullivan ​Director of The Centre for Research Training in Artificial Intelligence</span>
+</div>
 </section>
 </section>
 
@@ -808,6 +814,31 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 });
 </script>
 </div> <!-- /content -->
+<script>var lightboxQuarto = GLightbox({"closeEffect":"zoom","descPosition":"bottom","openEffect":"zoom","selector":".lightbox","loop":false});
+window.onload = () => {
+  lightboxQuarto.on('slide_before_load', (data) => {
+    const { slideIndex, slideNode, slideConfig, player, trigger } = data;
+    const href = trigger.getAttribute('href');
+    if (href !== null) {
+      const imgEl = window.document.querySelector(`a[href="${href}"] img`);
+      if (imgEl !== null) {
+        const srcAttr = imgEl.getAttribute("src");
+        if (srcAttr && srcAttr.startsWith("data:")) {
+          slideConfig.href = srcAttr;
+        }
+      }
+    } 
+  });
+
+  lightboxQuarto.on('slide_after_load', (data) => {
+    const { slideIndex, slideNode, slideConfig, player, trigger } = data;
+    if (window.Quarto?.typesetMath) {
+      window.Quarto.typesetMath(slideNode);
+    }
+  });
+
+};
+          </script>
 
 
 

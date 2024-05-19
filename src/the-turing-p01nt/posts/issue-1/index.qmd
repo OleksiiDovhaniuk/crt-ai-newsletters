@@ -23,7 +23,7 @@ categories: [Podcast, Dictionary, History]
 image: "thumbnail.jpg"
 ---
 
-![Professor O'Sullivan ​Director of The Centre for Research Training in Artificial Intelligence](barryosullivan.jpg "Professor O'Sullivan ​Director of CRT AI"){#issue1-img-barryosullivan fig-alt="Professor O'Sullivan ​Director of CRT AI"}
+![Professor O'Sullivan ​Director of The Centre for Research Training in Artificial Intelligence](barryosullivan.jpg "Professor O'Sullivan ​Director of CRT AI"){#issue1-img-barryosullivan .rounded-1 fig-alt="Professor O'Sullivan ​Director of CRT AI"}
 
 ### Director's Message 
 
