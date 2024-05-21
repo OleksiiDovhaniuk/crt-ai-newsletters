@@ -18,7 +18,7 @@ author:
     url: "https://www.linkedin.com/in/oleksii-dovhaniuk-ab0580283"
   - name: "Janet Choi"
     url: "https://www.crt-ai.ie/team/janet-choi"
-date: "2024-05-20"
+date: "2024-05-21"
 image: "thumbnail.jpg"
 categories: [Podcast, PhD, Reports]
 ---
@@ -97,11 +97,11 @@ Anonymous feedback:
 
 *By: Janet Choi Sr. Research Co-ordinator, SFI CRT in Artificial Intelligence Programme Manager*
 
-In June of 2023, the team at CRT in AI co-ordinated a visit to The University of Amsterdam scheduled for April 2024. For our non-EU PhD Researchers, this meant that travel visas were required, and I wanted to help secure these appointments for them. I only needed 23, so I resolved to the fact that it would be a simple phone call. 
+In June of 2023, the team at CRT in AI co-ordinated a visit to The University of Amsterdam scheduled for April 2024. For our non-EU PhD Researchers, this meant travel visas were required, and I wanted to help secure these appointments for them. I only needed 23, so I resolved to the fact that it would be a simple phone call. 
 
-*“Just make the call to VFS Global in Dublin, ask for the Embassy of the Netherlands, request for a group appointment.’’* I said to myself. 
+“Just make the call to VFS Global in Dublin, ask for the Embassy of the Netherlands, request for a group appointment.’’ I said to myself. 
 
-Making the call, I was placed on hold, waiting for the standard opening welcome and was put on to an operator who couldn’t manage my request. I was transferred to a case manager. Who I thought, was really going to help me now. Getting rather excited, I thought, I would get my 23 appointments before April 2024. This was June 2023, so loads of time at hand. I was wrong.
+Making the call, I was placed on hold, waiting for the standard opening welcome from the service agent, who couldn’t manage my request. I was transferred to a case manager. Who I thought was really going to help me finally. Getting rather excited, I thought I would get my 23 appointments before April 2024. This was June 2023, so loads of time at hand. I was so wrong.
 
 ### When Reality Meets Expectations
 
@@ -109,46 +109,44 @@ I had a brief call with the case manager, who assured me that the Dublin office 
 \
 I waited for the promised email, which came promptly after the call, an acknowledgement email thanking me for my phone call and dealing with VFS global each time. 
 
-I waited, and waited for appointment details. Anticipating details of the times and dates for the in person appointments, my email reminders to VFS mostly unanswered, became common place, and days turned to weeks. 
+I waited, and waited for appointment details. Anticipating details of the times and dates for the in person appointments, my email reminders to VFS mostly unanswered, became commonplace, and days turned to weeks. 
 
-Another phone call, attempted again to reach the same case manager, who was so happy to facilitate me on the first phone call. Resulted in more than 20+ phone calls by landline and mobile to gain clarity on the appointment dates and times. Between calls, I would receive email acknowledgements. Emails that were digitally signed with a Dublin address, but in actuality the call centre was based in Mumbai. 
+Another phone call, attempted again to reach the same case manager, who was so happy to facilitate me initially on the first phone call. Resulted in more than 20+ phone calls by landline and mobile to gain clarity on the appointment dates and times. Between calls, I would receive email acknowledgements. Emails that were digitally signed with a Dublin address, but in actuality the call centre was based in Mumbai. 
 
 On several occasions, I received multiple missed calls from unknown numbers, followed by emails from VFS Global stating that they tried to contact me unsuccessfully which delayed the process by 24-48 hours. A satisfaction survey by email would promptly follow the initial email. These numbers were international numbers that I did not recognise, so promptly did not answer these. 
 
-A long story made short, from the promise of all 23 appointments being managed all in one day, the conversation went on a vertical descent, and appointments reduced, down from all, to 6 per day, descending down from 6 to 4 per day and spiralling to 2 per day as the days went on. 
+A long story short, from the promise of 23 appointments being managed in one day, the conversations each time  went on a vertical descent, with appointments reduced, down from all, to 6 per day, spiralling down from 6 to 4 per day and finally to 2 per day.
 
-Follow up calls, for a family appointment for 4 (which was requested to be processed together) was split to two individual appointments on two separate days, with the group travelling outside of Dublin on two separate occasions.
+Separately, calls to help a PhD’s family appointment for 4 (which was requested to be processed together) was split to two individual appointments on two separate days, with the group travelling outside of Dublin on two separate occasions.
 
-This trip, the programme's first international one, was too important to fail. I couldn't let all the effort spent on meetings, discussions, and countless emails with Amsterdam AI and the PhDs be wasted. The time invested in securing flights and accommodation before applications even opened felt at risk. I felt sick with worry, on multiple occasions, seeing in my minds eye the students' disappointment.
+This trip, the programme's first international one, was too important to fail. All the effort spent on meetings, discussions, and countless emails with Amsterdam AI and the PhDs' time was wasted. The time invested in securing flights and accommodation before applications even felt at risk. I felt sick with worry on multiple occasions, seeing in my mind the students' disappointment.
 
-### Required Documents for Each Student
+### Establishing Required Documents for Each Applicant 
 
-The Embassy required the following documents, and in future I would advise all the students to do this, have a portfolio ready of all the documents required as listed below on their person when granted a visit to VFS Global. The list below is mandatory. 
+The Embassy required the following documents, and in future I would advise all the students to do this, have a portfolio ready of all the documents required as listed below on their person when granted a visit to VFS Global. The list below is mandatory.
 
 -   Agenda/Itinerary for the visit on visiting site Letterhead
 -   Letter of Invitation from the institution/conference/event
--   Flights and accommodation booked- Travel Itinerary
+-   Flights and accommodation booked - Travel Itinerary
 -   Letter of Support from their institution - Sponsor Letter
 -   Travel Insurance (personal and institutional)
 -   3 months Bank Statements
 -   3 months’ pay slips
 -   Fully completed VFS Application 
--   VFS Global email invitation 
--   Fee 
+-   VFS Global email invitation
+-   Fee
 
 ### Lessons Learned
 
-In all, 40 of us made the visit across to The Netherland’s and the visa applications approved by the The Netherland’s, springboarded some PhD Researchers to be able to apply for a Schengen Visa. 
+In all, 40 of us made the visit across to The Netherland’s and the visa applications approved by The Netherland’s, springboarded some PhD Researchers to be able to apply for a Schengen Visa.
 
-Considering the monopoly that VFS global have as the single operator for a majority of Embassies who rely on their service, I would say that their service is severely restrictive, and mediocre at best. 
+Considering the monopoly that VFS global has as the single operator for a majority of Embassies who rely on their service, I would say that their service is severely restrictive, and mediocre at best.
 
-From their webpage, they state leveraging a robust experience in visa application processing, providing governments with a holistic administrative solution to processing passport applications and provision of efficient consular services. Which left me with no comment. See [vfsglobal.com](https://www.vfsglobal.com/en/individuals/about.html "Redirects to VFS global web page"){.uri}.
+From their webpage, they state ‘’leveraging a robust experience in visa application processing, providing governments with a holistic administrative solution to processing passport applications and provision of efficient consular services’’. Which left me with no comment. See [vfsglobal.com](https://www.vfsglobal.com/en/individuals/about.html "Redirects to VFS global web page"){.uri}.
 
-Not to add, one needs to account for the extra time and money needed for the trip if the appointment was early in the morning and they were coming from Galway, Limerick, or Cork.
+To add, one needs to account for the extra time and funds required for the trip if the appointment is issued for early morning and travel is required outside the Dublin district. 
 
-In my opinion,It may take six to nine months to really obtain a visa, if one is unable to schedule an appointment  through their website.
-
-My advice, is to contact VFS directly, keeping in mind that the applicant will  need to persistently seek updates and clarification until a confirmed appointment time and date is provided.
+Try to obtain an online appointment first, but my advice is to contact VFS directly, keeping in mind that the applicant will  need to persistently seek updates and clarification until a confirmed appointment time and date is provided.
 
 Travelling without the need for a visa is an honour, shedding light on the stark differences in global mobility. This undertaking, underscored the inherent privilege enjoyed by those who can travel freely and frequently, unburdened by the often cumbersome visa application process.
 
